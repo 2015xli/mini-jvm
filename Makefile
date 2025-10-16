@@ -16,7 +16,8 @@ SRC_DIR  := .
 BUILD_DIR := build
 
 # Automatically detect all subdirectories for includes
-INC_DIRS := $(shell find $(SRC_DIR) -type d)
+#INC_DIRS := $(shell find $(SRC_DIR) -type d)
+INC_DIRS := $(shell find . -type d \( -name .git -o -name build \) -prune -false -o -type d)
 CFLAGS   += $(addprefix -I, $(INC_DIRS))
 
 # Collect all .c source files recursively
