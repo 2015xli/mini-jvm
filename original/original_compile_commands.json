@@ -409,32 +409,6 @@
             "-I./.cache/clangd/index",
             "-I./ragdata",
             "-o",
-            "build/gc/object_free.o",
-            "gc/object_free.c"
-        ],
-        "directory": "/home/xli/NAS/home/bin/mini-jvm",
-        "file": "gc/object_free.c"
-    },
-    {
-        "arguments": [
-            "clang",
-            "-c",
-            "-w",
-            "-O2",
-            "-I.",
-            "-I./class",
-            "-I./gc",
-            "-I./ia32_jit",
-            "-I./include",
-            "-I./korp",
-            "-I./natives",
-            "-I./utils",
-            "-I./.git",
-            "-I./.cache",
-            "-I./.cache/clangd",
-            "-I./.cache/clangd/index",
-            "-I./ragdata",
-            "-o",
             "build/ia32_jit/jit_support.o",
             "ia32_jit/jit_support.c"
         ],
