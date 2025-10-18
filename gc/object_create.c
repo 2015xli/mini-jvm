@@ -54,3 +54,13 @@ korp_object *gc_new_vm_array(obj_info header)
     return gc_new_vm_object(header);
 }
 
+void free_vm_object(korp_object *kobj)
+{
+    return;
+}
+
+void free_java_object(korp_object* jobj)
+{
+    return;
+}
+
