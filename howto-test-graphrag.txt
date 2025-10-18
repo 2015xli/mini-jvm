@@ -1,3 +1,7 @@
+#Original commit 267af5332fb5492f032a654e0eb03eca17928d5a (original)
+#Update commit 53ee70b2f44c21a44012fd45e1607c2ff243a625 (update)
+#The two commits are in main branch. Don't commit anything in the two branches to keep it simple. 
+
 cd ~/NAS/home/bin/mini-jvm
 git switch original
 cd ~/NAS/home/bin/ingest-clangd-to-neo4j/clangd-graph-rag
