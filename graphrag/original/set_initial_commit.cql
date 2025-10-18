@@ -1,4 +1,4 @@
 MATCH (p:PROJECT)
-SET p.commit_hash = 'daf947f3f6266c9d6daf88254ce8a8fc2389fc03'
+SET p.commit_hash = '267af5332fb5492f032a654e0eb03eca17928d5a'
 RETURN p;
 
