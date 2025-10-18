@@ -1,0 +1,8 @@
+cd ~/NAS/home/bin/mini-jvm
+git switch original
+cd ~/NAS/home/bin/ingest-clangd-to-neo4j/clangd-graph-rag
+python clangd_graph_rag_builder.py ../../mini-jvm/graphrag/original/korp_clangd_21.x.yaml  ../../mini-jvm/ --generate-summary --llm-api fake
+
+cd ~/NAS/home/bin/mini-jvm
+git switch update
+python clangd_graph_rag_updater.py ../../mini-jvm/graphrag/update/korp_clangd_21.x.yaml  ../../mini-jvm/ --generate-summary --llm-api fake
