@@ -1,0 +1,3266 @@
+- FileURI: file:///home/xli/NAS/home/bin/mini-jvm/class/class_initialize.c
+  Functions:
+  - Name: class_initialize
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 32
+        Column: 5
+      End:
+        Line: 32
+        Column: 21
+    BodyLocation:
+      Start:
+        Line: 32
+        Column: 0
+      End:
+        Line: 100
+        Column: 1
+- FileURI: file:///home/xli/NAS/home/bin/mini-jvm/class/class_loader.c
+  Functions:
+  - Name: load_class
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 437
+        Column: 12
+      End:
+        Line: 437
+        Column: 22
+    BodyLocation:
+      Start:
+        Line: 437
+        Column: 0
+      End:
+        Line: 500
+        Column: 1
+  - Name: load_class_supers
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 386
+        Column: 5
+      End:
+        Line: 386
+        Column: 22
+    BodyLocation:
+      Start:
+        Line: 386
+        Column: 0
+      End:
+        Line: 431
+        Column: 1
+  - Name: load_class_from_media
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 336
+        Column: 12
+      End:
+        Line: 336
+        Column: 33
+    BodyLocation:
+      Start:
+        Line: 336
+        Column: 0
+      End:
+        Line: 380
+        Column: 1
+  - Name: load_class_from_classfile
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 258
+        Column: 12
+      End:
+        Line: 258
+        Column: 37
+    BodyLocation:
+      Start:
+        Line: 258
+        Column: 0
+      End:
+        Line: 329
+        Column: 1
+  - Name: load_class_from_jarfile
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 245
+        Column: 12
+      End:
+        Line: 245
+        Column: 35
+    BodyLocation:
+      Start:
+        Line: 245
+        Column: 0
+      End:
+        Line: 252
+        Column: 1
+  - Name: load_class_array_creation
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 198
+        Column: 12
+      End:
+        Line: 198
+        Column: 37
+    BodyLocation:
+      Start:
+        Line: 198
+        Column: 0
+      End:
+        Line: 239
+        Column: 1
+  - Name: preload_primitive_class
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 175
+        Column: 12
+      End:
+        Line: 175
+        Column: 35
+    BodyLocation:
+      Start:
+        Line: 175
+        Column: 0
+      End:
+        Line: 192
+        Column: 1
+  - Name: set_array_class
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 130
+        Column: 5
+      End:
+        Line: 130
+        Column: 20
+    BodyLocation:
+      Start:
+        Line: 130
+        Column: 0
+      End:
+        Line: 173
+        Column: 1
+  - Name: field_set
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 112
+        Column: 5
+      End:
+        Line: 112
+        Column: 14
+    BodyLocation:
+      Start:
+        Line: 112
+        Column: 0
+      End:
+        Line: 125
+        Column: 1
+  - Name: collocate_class_vtable
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 73
+        Column: 12
+      End:
+        Line: 73
+        Column: 34
+    BodyLocation:
+      Start:
+        Line: 73
+        Column: 0
+      End:
+        Line: 108
+        Column: 1
+  - Name: new_class_loader
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 63
+        Column: 12
+      End:
+        Line: 63
+        Column: 28
+    BodyLocation:
+      Start:
+        Line: 63
+        Column: 0
+      End:
+        Line: 71
+        Column: 1
+  - Name: prepare_java_class_object
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 53
+        Column: 5
+      End:
+        Line: 53
+        Column: 30
+    BodyLocation:
+      Start:
+        Line: 53
+        Column: 0
+      End:
+        Line: 61
+        Column: 1
+- FileURI: file:///home/xli/NAS/home/bin/mini-jvm/class/class_parse.c
+  Functions:
+  - Name: class_parse
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 867
+        Column: 5
+      End:
+        Line: 867
+        Column: 16
+    BodyLocation:
+      Start:
+        Line: 867
+        Column: 0
+      End:
+        Line: 916
+        Column: 1
+  - Name: parse_attributes
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 823
+        Column: 12
+      End:
+        Line: 823
+        Column: 28
+    BodyLocation:
+      Start:
+        Line: 823
+        Column: 0
+      End:
+        Line: 865
+        Column: 1
+  - Name: parse_innerclasses
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 787
+        Column: 12
+      End:
+        Line: 787
+        Column: 30
+    BodyLocation:
+      Start:
+        Line: 787
+        Column: 0
+      End:
+        Line: 821
+        Column: 1
+  - Name: parse_methods
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 722
+        Column: 12
+      End:
+        Line: 722
+        Column: 25
+    BodyLocation:
+      Start:
+        Line: 722
+        Column: 0
+      End:
+        Line: 785
+        Column: 1
+  - Name: parse_exceptions
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 698
+        Column: 12
+      End:
+        Line: 698
+        Column: 28
+    BodyLocation:
+      Start:
+        Line: 698
+        Column: 0
+      End:
+        Line: 720
+        Column: 1
+  - Name: parse_code
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 640
+        Column: 12
+      End:
+        Line: 640
+        Column: 22
+    BodyLocation:
+      Start:
+        Line: 640
+        Column: 0
+      End:
+        Line: 696
+        Column: 1
+  - Name: parse_localvartable
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 597
+        Column: 12
+      End:
+        Line: 597
+        Column: 31
+    BodyLocation:
+      Start:
+        Line: 597
+        Column: 0
+      End:
+        Line: 638
+        Column: 1
+  - Name: parse_linenumtable
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 571
+        Column: 12
+      End:
+        Line: 571
+        Column: 30
+    BodyLocation:
+      Start:
+        Line: 571
+        Column: 0
+      End:
+        Line: 595
+        Column: 1
+  - Name: parse_handlers
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 531
+        Column: 12
+      End:
+        Line: 531
+        Column: 26
+    BodyLocation:
+      Start:
+        Line: 531
+        Column: 0
+      End:
+        Line: 568
+        Column: 1
+  - Name: parse_fields
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 459
+        Column: 12
+      End:
+        Line: 459
+        Column: 24
+    BodyLocation:
+      Start:
+        Line: 459
+        Column: 0
+      End:
+        Line: 529
+        Column: 1
+  - Name: parse_interfaces
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 436
+        Column: 12
+      End:
+        Line: 436
+        Column: 28
+    BodyLocation:
+      Start:
+        Line: 436
+        Column: 0
+      End:
+        Line: 457
+        Column: 1
+  - Name: parse_super_class
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 402
+        Column: 12
+      End:
+        Line: 402
+        Column: 29
+    BodyLocation:
+      Start:
+        Line: 402
+        Column: 0
+      End:
+        Line: 434
+        Column: 1
+  - Name: parse_this_class
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 379
+        Column: 12
+      End:
+        Line: 379
+        Column: 28
+    BodyLocation:
+      Start:
+        Line: 379
+        Column: 0
+      End:
+        Line: 400
+        Column: 1
+  - Name: parse_constant
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 308
+        Column: 12
+      End:
+        Line: 308
+        Column: 26
+    BodyLocation:
+      Start:
+        Line: 308
+        Column: 0
+      End:
+        Line: 377
+        Column: 1
+  - Name: parse_class_member
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 289
+        Column: 12
+      End:
+        Line: 289
+        Column: 30
+    BodyLocation:
+      Start:
+        Line: 289
+        Column: 0
+      End:
+        Line: 306
+        Column: 1
+  - Name: parse_constant_pool
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 110
+        Column: 12
+      End:
+        Line: 110
+        Column: 31
+    BodyLocation:
+      Start:
+        Line: 110
+        Column: 0
+      End:
+        Line: 287
+        Column: 1
+  - Name: cp_utf8_read_string
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 84
+        Column: 20
+      End:
+        Line: 84
+        Column: 39
+    BodyLocation:
+      Start:
+        Line: 84
+        Column: 0
+      End:
+        Line: 108
+        Column: 1
+  - Name: cp_class_read_name
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 58
+        Column: 20
+      End:
+        Line: 58
+        Column: 38
+    BodyLocation:
+      Start:
+        Line: 58
+        Column: 0
+      End:
+        Line: 82
+        Column: 1
+  - Name: readbytes
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 39
+        Column: 14
+      End:
+        Line: 39
+        Column: 23
+    BodyLocation:
+      Start:
+        Line: 39
+        Column: 0
+      End:
+        Line: 56
+        Column: 1
+  - Name: load_jnc_fields
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 16
+        Column: 5
+      End:
+        Line: 16
+        Column: 20
+    BodyLocation:
+      Start:
+        Line: 16
+        Column: 0
+      End:
+        Line: 31
+        Column: 1
+- FileURI: file:///home/xli/NAS/home/bin/mini-jvm/class/class_prepare.c
+  Functions:
+  - Name: class_prepare
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 444
+        Column: 5
+      End:
+        Line: 444
+        Column: 18
+    BodyLocation:
+      Start:
+        Line: 444
+        Column: 0
+      End:
+        Line: 470
+        Column: 1
+  - Name: prepare_interfaces
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 343
+        Column: 12
+      End:
+        Line: 343
+        Column: 30
+    BodyLocation:
+      Start:
+        Line: 343
+        Column: 0
+      End:
+        Line: 432
+        Column: 1
+  - Name: prepare_interface_table
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 298
+        Column: 12
+      End:
+        Line: 298
+        Column: 35
+    BodyLocation:
+      Start:
+        Line: 298
+        Column: 0
+      End:
+        Line: 341
+        Column: 1
+  - Name: prepare_methods
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 251
+        Column: 12
+      End:
+        Line: 251
+        Column: 27
+    BodyLocation:
+      Start:
+        Line: 251
+        Column: 0
+      End:
+        Line: 296
+        Column: 1
+  - Name: prepare_instance_vtable
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 205
+        Column: 12
+      End:
+        Line: 205
+        Column: 35
+    BodyLocation:
+      Start:
+        Line: 205
+        Column: 0
+      End:
+        Line: 249
+        Column: 1
+  - Name: override_superclass_method
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 143
+        Column: 12
+      End:
+        Line: 143
+        Column: 38
+    BodyLocation:
+      Start:
+        Line: 143
+        Column: 0
+      End:
+        Line: 177
+        Column: 1
+  - Name: prepare_supers
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 123
+        Column: 12
+      End:
+        Line: 123
+        Column: 26
+    BodyLocation:
+      Start:
+        Line: 123
+        Column: 0
+      End:
+        Line: 141
+        Column: 1
+  - Name: prepare_fields
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 42
+        Column: 12
+      End:
+        Line: 42
+        Column: 26
+    BodyLocation:
+      Start:
+        Line: 42
+        Column: 0
+      End:
+        Line: 120
+        Column: 1
+  - Name: prepare_static_data
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 11
+        Column: 12
+      End:
+        Line: 11
+        Column: 31
+    BodyLocation:
+      Start:
+        Line: 11
+        Column: 0
+      End:
+        Line: 40
+        Column: 1
+- FileURI: file:///home/xli/NAS/home/bin/mini-jvm/class/class_table.c
+  Functions:
+  - Name: class_table_remove
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 57
+        Column: 5
+      End:
+        Line: 57
+        Column: 23
+    BodyLocation:
+      Start:
+        Line: 57
+        Column: 0
+      End:
+        Line: 81
+        Column: 1
+  - Name: class_table_insert
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 30
+        Column: 5
+      End:
+        Line: 30
+        Column: 23
+    BodyLocation:
+      Start:
+        Line: 30
+        Column: 0
+      End:
+        Line: 55
+        Column: 1
+  - Name: class_table_search
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 13
+        Column: 12
+      End:
+        Line: 13
+        Column: 30
+    BodyLocation:
+      Start:
+        Line: 13
+        Column: 0
+      End:
+        Line: 28
+        Column: 1
+  - Name: new_class_table
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 7
+        Column: 18
+      End:
+        Line: 7
+        Column: 33
+    BodyLocation:
+      Start:
+        Line: 7
+        Column: 0
+      End:
+        Line: 10
+        Column: 1
+- FileURI: file:///home/xli/NAS/home/bin/mini-jvm/class/class_utils.c
+  Functions:
+  - Name: class_get_interface_method_offset
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 169
+        Column: 17
+      End:
+        Line: 169
+        Column: 50
+    BodyLocation:
+      Start:
+        Line: 169
+        Column: 0
+      End:
+        Line: 185
+        Column: 1
+  - Name: java_object_get_class
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 164
+        Column: 12
+      End:
+        Line: 164
+        Column: 33
+    BodyLocation:
+      Start:
+        Line: 164
+        Column: 0
+      End:
+        Line: 167
+        Column: 1
+  - Name: class_lookup_method_recursive
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 138
+        Column: 13
+      End:
+        Line: 138
+        Column: 42
+    BodyLocation:
+      Start:
+        Line: 138
+        Column: 0
+      End:
+        Line: 162
+        Column: 1
+  - Name: class_lookup_method_own
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 123
+        Column: 13
+      End:
+        Line: 123
+        Column: 36
+    BodyLocation:
+      Start:
+        Line: 123
+        Column: 0
+      End:
+        Line: 136
+        Column: 1
+  - Name: class_lookup_field_own
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 107
+        Column: 12
+      End:
+        Line: 107
+        Column: 34
+    BodyLocation:
+      Start:
+        Line: 107
+        Column: 0
+      End:
+        Line: 121
+        Column: 1
+  - Name: class_lookup_field_recursive
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 82
+        Column: 12
+      End:
+        Line: 82
+        Column: 40
+    BodyLocation:
+      Start:
+        Line: 82
+        Column: 0
+      End:
+        Line: 105
+        Column: 1
+  - Name: class_create_package_name
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 65
+        Column: 13
+      End:
+        Line: 65
+        Column: 38
+    BodyLocation:
+      Start:
+        Line: 65
+        Column: 0
+      End:
+        Line: 80
+        Column: 1
+  - Name: is_subclass
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 53
+        Column: 5
+      End:
+        Line: 53
+        Column: 16
+    BodyLocation:
+      Start:
+        Line: 53
+        Column: 0
+      End:
+        Line: 63
+        Column: 1
+  - Name: class_name_is_array
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 46
+        Column: 5
+      End:
+        Line: 46
+        Column: 24
+    BodyLocation:
+      Start:
+        Line: 46
+        Column: 0
+      End:
+        Line: 50
+        Column: 1
+  - Name: array_name_get_dimension
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 38
+        Column: 7
+      End:
+        Line: 38
+        Column: 31
+    BodyLocation:
+      Start:
+        Line: 38
+        Column: 0
+      End:
+        Line: 44
+        Column: 1
+  - Name: array_get_base_class
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 16
+        Column: 12
+      End:
+        Line: 16
+        Column: 32
+    BodyLocation:
+      Start:
+        Line: 16
+        Column: 0
+      End:
+        Line: 36
+        Column: 1
+  - Name: field_initialize
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 9
+        Column: 5
+      End:
+        Line: 9
+        Column: 21
+    BodyLocation:
+      Start:
+        Line: 9
+        Column: 0
+      End:
+        Line: 14
+        Column: 1
+- FileURI: file:///home/xli/NAS/home/bin/mini-jvm/class/class_verify.c
+  Functions:
+  - Name: class_verify
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 4
+        Column: 5
+      End:
+        Line: 4
+        Column: 17
+    BodyLocation:
+      Start:
+        Line: 4
+        Column: 0
+      End:
+        Line: 7
+        Column: 1
+- FileURI: file:///home/xli/NAS/home/bin/mini-jvm/class/method.c
+  Functions:
+  - Name: method_descriptor_get_param_info
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 90
+        Column: 5
+      End:
+        Line: 90
+        Column: 37
+    BodyLocation:
+      Start:
+        Line: 90
+        Column: 0
+      End:
+        Line: 134
+        Column: 1
+  - Name: method_get_param_num_size
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 45
+        Column: 5
+      End:
+        Line: 45
+        Column: 30
+    BodyLocation:
+      Start:
+        Line: 45
+        Column: 0
+      End:
+        Line: 88
+        Column: 1
+  - Name: method_initialize
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 30
+        Column: 5
+      End:
+        Line: 30
+        Column: 22
+    BodyLocation:
+      Start:
+        Line: 30
+        Column: 0
+      End:
+        Line: 43
+        Column: 1
+  - Name: method_get_bytecode_entry
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 25
+        Column: 7
+      End:
+        Line: 25
+        Column: 32
+    BodyLocation:
+      Start:
+        Line: 25
+        Column: 0
+      End:
+        Line: 28
+        Column: 1
+  - Name: method_get_bincode_indirect_entry
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 20
+        Column: 7
+      End:
+        Line: 20
+        Column: 40
+    BodyLocation:
+      Start:
+        Line: 20
+        Column: 0
+      End:
+        Line: 23
+        Column: 1
+  - Name: method_get_bincode_entry
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 15
+        Column: 7
+      End:
+        Line: 15
+        Column: 31
+    BodyLocation:
+      Start:
+        Line: 15
+        Column: 0
+      End:
+        Line: 18
+        Column: 1
+  - Name: method_get_handler
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 10
+        Column: 14
+      End:
+        Line: 10
+        Column: 32
+    BodyLocation:
+      Start:
+        Line: 10
+        Column: 0
+      End:
+        Line: 13
+        Column: 1
+- FileURI: file:///home/xli/NAS/home/bin/mini-jvm/class/string_pool.c
+  Functions:
+  - Name: string_pool_remove
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 62
+        Column: 5
+      End:
+        Line: 62
+        Column: 23
+    BodyLocation:
+      Start:
+        Line: 62
+        Column: 0
+      End:
+        Line: 85
+        Column: 1
+  - Name: string_pool_lookup
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 17
+        Column: 13
+      End:
+        Line: 17
+        Column: 31
+    BodyLocation:
+      Start:
+        Line: 17
+        Column: 0
+      End:
+        Line: 60
+        Column: 1
+  - Name: new_string_pool
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 8
+        Column: 18
+      End:
+        Line: 8
+        Column: 33
+    BodyLocation:
+      Start:
+        Line: 8
+        Column: 0
+      End:
+        Line: 11
+        Column: 1
+- FileURI: file:///home/xli/NAS/home/bin/mini-jvm/class/vm_interface.c
+  Functions:
+  - Name: class_resolve_method
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 176
+        Column: 13
+      End:
+        Line: 176
+        Column: 33
+    BodyLocation:
+      Start:
+        Line: 176
+        Column: 0
+      End:
+        Line: 236
+        Column: 1
+  - Name: class_resolve_field
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 122
+        Column: 12
+      End:
+        Line: 122
+        Column: 31
+    BodyLocation:
+      Start:
+        Line: 122
+        Column: 0
+      End:
+        Line: 173
+        Column: 1
+  - Name: class_resolve_class
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 91
+        Column: 12
+      End:
+        Line: 91
+        Column: 31
+    BodyLocation:
+      Start:
+        Line: 91
+        Column: 0
+      End:
+        Line: 119
+        Column: 1
+  - Name: cp_get_const_value
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 78
+        Column: 13
+      End:
+        Line: 78
+        Column: 31
+    BodyLocation:
+      Start:
+        Line: 78
+        Column: 0
+      End:
+        Line: 88
+        Column: 1
+  - Name: cp_get_const_type
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 57
+        Column: 15
+      End:
+        Line: 57
+        Column: 32
+    BodyLocation:
+      Start:
+        Line: 57
+        Column: 0
+      End:
+        Line: 76
+        Column: 1
+  - Name: cp_get_method_descriptor
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 46
+        Column: 13
+      End:
+        Line: 46
+        Column: 37
+    BodyLocation:
+      Start:
+        Line: 46
+        Column: 0
+      End:
+        Line: 55
+        Column: 1
+  - Name: cp_get_field_type
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 30
+        Column: 15
+      End:
+        Line: 30
+        Column: 32
+    BodyLocation:
+      Start:
+        Line: 30
+        Column: 0
+      End:
+        Line: 44
+        Column: 1
+  - Name: get_vm_object_size
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 8
+        Column: 7
+      End:
+        Line: 8
+        Column: 25
+    BodyLocation:
+      Start:
+        Line: 8
+        Column: 0
+      End:
+        Line: 29
+        Column: 1
+- FileURI: file:///home/xli/NAS/home/bin/mini-jvm/gc/object_create.c
+  Functions:
+  - Name: gc_new_vm_array
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 51
+        Column: 13
+      End:
+        Line: 51
+        Column: 28
+    BodyLocation:
+      Start:
+        Line: 51
+        Column: 0
+      End:
+        Line: 54
+        Column: 1
+  - Name: gc_new_vm_object
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 41
+        Column: 13
+      End:
+        Line: 41
+        Column: 29
+    BodyLocation:
+      Start:
+        Line: 41
+        Column: 0
+      End:
+        Line: 49
+        Column: 1
+  - Name: gc_new_java_object
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 31
+        Column: 13
+      End:
+        Line: 31
+        Column: 31
+    BodyLocation:
+      Start:
+        Line: 31
+        Column: 0
+      End:
+        Line: 39
+        Column: 1
+  - Name: gc_new_java_array
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 18
+        Column: 17
+      End:
+        Line: 18
+        Column: 34
+    BodyLocation:
+      Start:
+        Line: 18
+        Column: 0
+      End:
+        Line: 29
+        Column: 1
+  - Name: gc_init
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 10
+        Column: 5
+      End:
+        Line: 10
+        Column: 12
+    BodyLocation:
+      Start:
+        Line: 10
+        Column: 0
+      End:
+        Line: 16
+        Column: 1
+- FileURI: file:///home/xli/NAS/home/bin/mini-jvm/gc/object_free.c
+  Functions:
+  - Name: free_java_object
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 15
+        Column: 5
+      End:
+        Line: 15
+        Column: 21
+    BodyLocation:
+      Start:
+        Line: 15
+        Column: 0
+      End:
+        Line: 18
+        Column: 1
+  - Name: free_vm_object
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 10
+        Column: 5
+      End:
+        Line: 10
+        Column: 19
+    BodyLocation:
+      Start:
+        Line: 10
+        Column: 0
+      End:
+        Line: 13
+        Column: 1
+- FileURI: file:///home/xli/NAS/home/bin/mini-jvm/ia32_jit/code_gen.c
+  Functions:
+  - Name: select_code
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 118
+        Column: 5
+      End:
+        Line: 118
+        Column: 16
+    BodyLocation:
+      Start:
+        Line: 118
+        Column: 0
+      End:
+        Line: 1343
+        Column: 1
+  - Name: local_var_store
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 102
+        Column: 14
+      End:
+        Line: 102
+        Column: 29
+    BodyLocation:
+      Start:
+        Line: 102
+        Column: 0
+      End:
+        Line: 115
+        Column: 1
+  - Name: local_var_load
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 86
+        Column: 14
+      End:
+        Line: 86
+        Column: 28
+    BodyLocation:
+      Start:
+        Line: 86
+        Column: 0
+      End:
+        Line: 100
+        Column: 1
+  - Name: stack_pop_reg
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 66
+        Column: 14
+      End:
+        Line: 66
+        Column: 27
+    BodyLocation:
+      Start:
+        Line: 66
+        Column: 0
+      End:
+        Line: 84
+        Column: 1
+  - Name: stack_push_reg
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 45
+        Column: 14
+      End:
+        Line: 45
+        Column: 28
+    BodyLocation:
+      Start:
+        Line: 45
+        Column: 0
+      End:
+        Line: 64
+        Column: 1
+  - Name: stack_push_const
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 25
+        Column: 14
+      End:
+        Line: 25
+        Column: 30
+    BodyLocation:
+      Start:
+        Line: 25
+        Column: 0
+      End:
+        Line: 43
+        Column: 1
+  - Name: stack_opnd
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 14
+        Column: 22
+      End:
+        Line: 14
+        Column: 32
+    BodyLocation:
+      Start:
+        Line: 14
+        Column: 0
+      End:
+        Line: 17
+        Column: 1
+  - Name: localvar_opnd
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 9
+        Column: 22
+      End:
+        Line: 9
+        Column: 35
+    BodyLocation:
+      Start:
+        Line: 9
+        Column: 0
+      End:
+        Line: 12
+        Column: 1
+- FileURI: file:///home/xli/NAS/home/bin/mini-jvm/ia32_jit/compile.c
+  Functions:
+  - Name: compile
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 254
+        Column: 5
+      End:
+        Line: 254
+        Column: 12
+    BodyLocation:
+      Start:
+        Line: 254
+        Column: 0
+      End:
+        Line: 281
+        Column: 1
+  - Name: generate_code
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 193
+        Column: 12
+      End:
+        Line: 193
+        Column: 25
+    BodyLocation:
+      Start:
+        Line: 193
+        Column: 0
+      End:
+        Line: 252
+        Column: 1
+  - Name: prepare_stackframe_old
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 131
+        Column: 12
+      End:
+        Line: 131
+        Column: 34
+    BodyLocation:
+      Start:
+        Line: 131
+        Column: 0
+      End:
+        Line: 190
+        Column: 1
+  - Name: prepare_stackframe
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 71
+        Column: 12
+      End:
+        Line: 71
+        Column: 30
+    BodyLocation:
+      Start:
+        Line: 71
+        Column: 0
+      End:
+        Line: 127
+        Column: 1
+  - Name: gen_epilog
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 51
+        Column: 12
+      End:
+        Line: 51
+        Column: 22
+    BodyLocation:
+      Start:
+        Line: 51
+        Column: 0
+      End:
+        Line: 69
+        Column: 1
+  - Name: gen_prolog
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 37
+        Column: 12
+      End:
+        Line: 37
+        Column: 22
+    BodyLocation:
+      Start:
+        Line: 37
+        Column: 0
+      End:
+        Line: 49
+        Column: 1
+  - Name: codebuf_set
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 14
+        Column: 14
+      End:
+        Line: 14
+        Column: 25
+    BodyLocation:
+      Start:
+        Line: 14
+        Column: 0
+      End:
+        Line: 35
+        Column: 1
+  - Name: codebuf_get
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 9
+        Column: 7
+      End:
+        Line: 9
+        Column: 18
+    BodyLocation:
+      Start:
+        Line: 9
+        Column: 0
+      End:
+        Line: 12
+        Column: 1
+- FileURI: file:///home/xli/NAS/home/bin/mini-jvm/ia32_jit/jit_runtime.c
+  Functions:
+  - Name: generate_java_to_native_wrapper
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 111
+        Column: 11
+      End:
+        Line: 111
+        Column: 42
+    BodyLocation:
+      Start:
+        Line: 111
+        Column: 0
+      End:
+        Line: 190
+        Column: 1
+  - Name: generate_compile_me_stub_ia32
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 94
+        Column: 11
+      End:
+        Line: 94
+        Column: 40
+    BodyLocation:
+      Start:
+        Line: 94
+        Column: 0
+      End:
+        Line: 109
+        Column: 1
+  - Name: getaddress_native_to_java_call
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 10
+        Column: 15
+      End:
+        Line: 10
+        Column: 45
+    BodyLocation:
+      Start:
+        Line: 10
+        Column: 0
+      End:
+        Line: 92
+        Column: 1
+- FileURI: file:///home/xli/NAS/home/bin/mini-jvm/ia32_jit/jit_support.c
+  Functions:
+  - Name: execute_java_method_ia32
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 107
+        Column: 5
+      End:
+        Line: 107
+        Column: 29
+    BodyLocation:
+      Start:
+        Line: 107
+        Column: 0
+      End:
+        Line: 133
+        Column: 1
+  - Name: __stdcall
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 49
+        Column: 6
+      End:
+        Line: 49
+        Column: 15
+    BodyLocation:
+      Start:
+        Line: 49
+        Column: 0
+      End:
+        Line: 100
+        Column: 1
+  - Name: method_update_vtable
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 40
+        Column: 12
+      End:
+        Line: 40
+        Column: 32
+    BodyLocation:
+      Start:
+        Line: 40
+        Column: 0
+      End:
+        Line: 47
+        Column: 1
+  - Name: read_int32_offset
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 34
+        Column: 6
+      End:
+        Line: 34
+        Column: 23
+    BodyLocation:
+      Start:
+        Line: 34
+        Column: 0
+      End:
+        Line: 38
+        Column: 1
+  - Name: read_int16_offset
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 29
+        Column: 6
+      End:
+        Line: 29
+        Column: 23
+    BodyLocation:
+      Start:
+        Line: 29
+        Column: 0
+      End:
+        Line: 32
+        Column: 1
+  - Name: read_int8_value
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 24
+        Column: 5
+      End:
+        Line: 24
+        Column: 20
+    BodyLocation:
+      Start:
+        Line: 24
+        Column: 0
+      End:
+        Line: 27
+        Column: 1
+  - Name: read_uint16_index
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 19
+        Column: 7
+      End:
+        Line: 19
+        Column: 24
+    BodyLocation:
+      Start:
+        Line: 19
+        Column: 0
+      End:
+        Line: 22
+        Column: 1
+  - Name: read_uint8_index
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 14
+        Column: 6
+      End:
+        Line: 14
+        Column: 22
+    BodyLocation:
+      Start:
+        Line: 14
+        Column: 0
+      End:
+        Line: 17
+        Column: 1
+- FileURI: file:///home/xli/NAS/home/bin/mini-jvm/ia32_jit/prepass.c
+  Functions:
+  - Name: prepass_bytecode
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 830
+        Column: 5
+      End:
+        Line: 830
+        Column: 21
+    BodyLocation:
+      Start:
+        Line: 830
+        Column: 0
+      End:
+        Line: 855
+        Column: 1
+  - Name: parse_bytecode
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 35
+        Column: 12
+      End:
+        Line: 35
+        Column: 26
+    BodyLocation:
+      Start:
+        Line: 35
+        Column: 0
+      End:
+        Line: 828
+        Column: 1
+  - Name: gcinfo_at_back_edge
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 27
+        Column: 12
+      End:
+        Line: 27
+        Column: 31
+    BodyLocation:
+      Start:
+        Line: 27
+        Column: 0
+      End:
+        Line: 33
+        Column: 1
+  - Name: gcinfo_at_call_site
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 20
+        Column: 12
+      End:
+        Line: 20
+        Column: 31
+    BodyLocation:
+      Start:
+        Line: 20
+        Column: 0
+      End:
+        Line: 25
+        Column: 1
+- FileURI: file:///home/xli/NAS/home/bin/mini-jvm/ia32_jit/x86.c
+  Functions:
+  - Name: widen_to_half
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 606
+        Column: 7
+      End:
+        Line: 606
+        Column: 20
+    BodyLocation:
+      Start:
+        Line: 606
+        Column: 0
+      End:
+        Line: 616
+        Column: 1
+  - Name: widen_to_full
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 593
+        Column: 7
+      End:
+        Line: 593
+        Column: 20
+    BodyLocation:
+      Start:
+        Line: 593
+        Column: 0
+      End:
+        Line: 604
+        Column: 1
+  - Name: jump
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 570
+        Column: 7
+      End:
+        Line: 570
+        Column: 11
+    BodyLocation:
+      Start:
+        Line: 570
+        Column: 0
+      End:
+        Line: 591
+        Column: 1
+  - Name: branch
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 552
+        Column: 7
+      End:
+        Line: 552
+        Column: 13
+    BodyLocation:
+      Start:
+        Line: 552
+        Column: 0
+      End:
+        Line: 568
+        Column: 1
+  - Name: call
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 532
+        Column: 7
+      End:
+        Line: 532
+        Column: 11
+    BodyLocation:
+      Start:
+        Line: 532
+        Column: 0
+      End:
+        Line: 550
+        Column: 1
+  - Name: ret
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 517
+        Column: 7
+      End:
+        Line: 517
+        Column: 10
+    BodyLocation:
+      Start:
+        Line: 517
+        Column: 0
+      End:
+        Line: 530
+        Column: 1
+  - Name: pop
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 499
+        Column: 7
+      End:
+        Line: 499
+        Column: 10
+    BodyLocation:
+      Start:
+        Line: 499
+        Column: 0
+      End:
+        Line: 515
+        Column: 1
+  - Name: push
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 477
+        Column: 7
+      End:
+        Line: 477
+        Column: 11
+    BodyLocation:
+      Start:
+        Line: 477
+        Column: 0
+      End:
+        Line: 497
+        Column: 1
+  - Name: lea
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 461
+        Column: 7
+      End:
+        Line: 461
+        Column: 10
+    BodyLocation:
+      Start:
+        Line: 461
+        Column: 0
+      End:
+        Line: 475
+        Column: 1
+  - Name: imul
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 432
+        Column: 7
+      End:
+        Line: 432
+        Column: 11
+    BodyLocation:
+      Start:
+        Line: 432
+        Column: 0
+      End:
+        Line: 459
+        Column: 1
+  - Name: muldiv
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 413
+        Column: 7
+      End:
+        Line: 413
+        Column: 13
+    BodyLocation:
+      Start:
+        Line: 413
+        Column: 0
+      End:
+        Line: 430
+        Column: 1
+  - Name: nop
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 407
+        Column: 7
+      End:
+        Line: 407
+        Column: 10
+    BodyLocation:
+      Start:
+        Line: 407
+        Column: 0
+      End:
+        Line: 411
+        Column: 1
+  - Name: unialu
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 399
+        Column: 7
+      End:
+        Line: 399
+        Column: 13
+    BodyLocation:
+      Start:
+        Line: 399
+        Column: 0
+      End:
+        Line: 405
+        Column: 1
+  - Name: binalu
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 390
+        Column: 7
+      End:
+        Line: 390
+        Column: 13
+    BodyLocation:
+      Start:
+        Line: 390
+        Column: 0
+      End:
+        Line: 397
+        Column: 1
+  - Name: mov
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 307
+        Column: 7
+      End:
+        Line: 307
+        Column: 10
+    BodyLocation:
+      Start:
+        Line: 307
+        Column: 0
+      End:
+        Line: 387
+        Column: 1
+  - Name: prefix
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 300
+        Column: 7
+      End:
+        Line: 300
+        Column: 13
+    BodyLocation:
+      Start:
+        Line: 300
+        Column: 0
+      End:
+        Line: 304
+        Column: 1
+  - Name: unialu_inst
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 264
+        Column: 14
+      End:
+        Line: 264
+        Column: 25
+    BodyLocation:
+      Start:
+        Line: 264
+        Column: 0
+      End:
+        Line: 293
+        Column: 1
+  - Name: binalu_inst
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 211
+        Column: 14
+      End:
+        Line: 211
+        Column: 25
+    BodyLocation:
+      Start:
+        Line: 211
+        Column: 0
+      End:
+        Line: 262
+        Column: 1
+  - Name: rm_opnd_inst
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 191
+        Column: 14
+      End:
+        Line: 191
+        Column: 26
+    BodyLocation:
+      Start:
+        Line: 191
+        Column: 0
+      End:
+        Line: 209
+        Column: 1
+  - Name: reg_inst
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 183
+        Column: 14
+      End:
+        Line: 183
+        Column: 22
+    BodyLocation:
+      Start:
+        Line: 183
+        Column: 0
+      End:
+        Line: 189
+        Column: 1
+  - Name: mem_inst
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 119
+        Column: 14
+      End:
+        Line: 119
+        Column: 22
+    BodyLocation:
+      Start:
+        Line: 119
+        Column: 0
+      End:
+        Line: 181
+        Column: 1
+  - Name: imm_opnd_inst
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 94
+        Column: 14
+      End:
+        Line: 94
+        Column: 27
+    BodyLocation:
+      Start:
+        Line: 94
+        Column: 0
+      End:
+        Line: 117
+        Column: 1
+  - Name: mem_opnd
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 79
+        Column: 15
+      End:
+        Line: 79
+        Column: 23
+    BodyLocation:
+      Start:
+        Line: 79
+        Column: 0
+      End:
+        Line: 92
+        Column: 1
+  - Name: mem_addr_opnd
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 74
+        Column: 15
+      End:
+        Line: 74
+        Column: 28
+    BodyLocation:
+      Start:
+        Line: 74
+        Column: 0
+      End:
+        Line: 77
+        Column: 1
+  - Name: mem_base_opnd
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 69
+        Column: 15
+      End:
+        Line: 69
+        Column: 28
+    BodyLocation:
+      Start:
+        Line: 69
+        Column: 0
+      End:
+        Line: 72
+        Column: 1
+  - Name: modrm_byte
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 64
+        Column: 13
+      End:
+        Line: 64
+        Column: 23
+    BodyLocation:
+      Start:
+        Line: 64
+        Column: 0
+      End:
+        Line: 67
+        Column: 1
+  - Name: sib_byte
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 55
+        Column: 13
+      End:
+        Line: 55
+        Column: 21
+    BodyLocation:
+      Start:
+        Line: 55
+        Column: 0
+      End:
+        Line: 58
+        Column: 1
+  - Name: x86_init
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 23
+        Column: 5
+      End:
+        Line: 23
+        Column: 13
+    BodyLocation:
+      Start:
+        Line: 23
+        Column: 0
+      End:
+        Line: 49
+        Column: 1
+- FileURI: file:///home/xli/NAS/home/bin/mini-jvm/korp/korp.c
+  Functions:
+  - Name: main
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 248
+        Column: 4
+      End:
+        Line: 248
+        Column: 8
+    BodyLocation:
+      Start:
+        Line: 248
+        Column: 0
+      End:
+        Line: 277
+        Column: 1
+  - Name: start_java_execution
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 197
+        Column: 12
+      End:
+        Line: 197
+        Column: 32
+    BodyLocation:
+      Start:
+        Line: 197
+        Column: 0
+      End:
+        Line: 246
+        Column: 1
+  - Name: parse_arguments
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 171
+        Column: 11
+      End:
+        Line: 171
+        Column: 26
+    BodyLocation:
+      Start:
+        Line: 171
+        Column: 0
+      End:
+        Line: 195
+        Column: 1
+  - Name: normalize_classpath
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 146
+        Column: 13
+      End:
+        Line: 146
+        Column: 32
+    BodyLocation:
+      Start:
+        Line: 146
+        Column: 0
+      End:
+        Line: 169
+        Column: 1
+  - Name: system_init
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 127
+        Column: 12
+      End:
+        Line: 127
+        Column: 23
+    BodyLocation:
+      Start:
+        Line: 127
+        Column: 0
+      End:
+        Line: 144
+        Column: 1
+  - Name: korp_init
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 118
+        Column: 12
+      End:
+        Line: 118
+        Column: 21
+    BodyLocation:
+      Start:
+        Line: 118
+        Column: 0
+      End:
+        Line: 125
+        Column: 1
+  - Name: prepare_globals
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 48
+        Column: 12
+      End:
+        Line: 48
+        Column: 27
+    BodyLocation:
+      Start:
+        Line: 48
+        Column: 0
+      End:
+        Line: 116
+        Column: 1
+  - Name: preload_class
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 14
+        Column: 12
+      End:
+        Line: 14
+        Column: 25
+    BodyLocation:
+      Start:
+        Line: 14
+        Column: 0
+      End:
+        Line: 46
+        Column: 1
+- FileURI: file:///home/xli/NAS/home/bin/mini-jvm/natives/java_lang.c
+  Functions:
+  - Name: java_lang_System_getProperty0
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 237
+        Column: 16
+      End:
+        Line: 237
+        Column: 45
+    BodyLocation:
+      Start:
+        Line: 237
+        Column: 0
+      End:
+        Line: 275
+        Column: 1
+  - Name: java_lang_System_arraycopy
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 160
+        Column: 13
+      End:
+        Line: 160
+        Column: 39
+    BodyLocation:
+      Start:
+        Line: 160
+        Column: 0
+      End:
+        Line: 235
+        Column: 1
+  - Name: java_lang_StringBuffer_toString
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 142
+        Column: 16
+      End:
+        Line: 142
+        Column: 47
+    BodyLocation:
+      Start:
+        Line: 142
+        Column: 0
+      End:
+        Line: 158
+        Column: 1
+  - Name: java_lang_StringBuffer_append
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 107
+        Column: 16
+      End:
+        Line: 107
+        Column: 45
+    BodyLocation:
+      Start:
+        Line: 107
+        Column: 0
+      End:
+        Line: 140
+        Column: 1
+  - Name: java_lang_String_indexOf
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 102
+        Column: 13
+      End:
+        Line: 102
+        Column: 37
+    BodyLocation:
+      Start:
+        Line: 102
+        Column: 0
+      End:
+        Line: 105
+        Column: 1
+  - Name: java_lang_String_indexOf_II
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 83
+        Column: 13
+      End:
+        Line: 83
+        Column: 40
+    BodyLocation:
+      Start:
+        Line: 83
+        Column: 0
+      End:
+        Line: 100
+        Column: 1
+  - Name: java_lang_String_equals
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 53
+        Column: 17
+      End:
+        Line: 53
+        Column: 40
+    BodyLocation:
+      Start:
+        Line: 53
+        Column: 0
+      End:
+        Line: 81
+        Column: 1
+  - Name: java_lang_String_charAt
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 44
+        Column: 14
+      End:
+        Line: 44
+        Column: 37
+    BodyLocation:
+      Start:
+        Line: 44
+        Column: 0
+      End:
+        Line: 51
+        Column: 1
+  - Name: java_lang_Class_newInstance
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 37
+        Column: 16
+      End:
+        Line: 37
+        Column: 43
+    BodyLocation:
+      Start:
+        Line: 37
+        Column: 0
+      End:
+        Line: 42
+        Column: 1
+  - Name: java_lang_Class_forName
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 26
+        Column: 16
+      End:
+        Line: 26
+        Column: 39
+    BodyLocation:
+      Start:
+        Line: 26
+        Column: 0
+      End:
+        Line: 35
+        Column: 1
+  - Name: com_sun_cldc_io_j2me_debug_PrivateOutputStream_putchar
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 21
+        Column: 13
+      End:
+        Line: 21
+        Column: 67
+    BodyLocation:
+      Start:
+        Line: 21
+        Column: 0
+      End:
+        Line: 24
+        Column: 1
+- FileURI: file:///home/xli/NAS/home/bin/mini-jvm/natives/natives.c
+  Functions:
+  - Name: method_lookup_native_entry
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 32
+        Column: 7
+      End:
+        Line: 32
+        Column: 33
+    BodyLocation:
+      Start:
+        Line: 32
+        Column: 0
+      End:
+        Line: 65
+        Column: 1
+  - Name: method_forced_native
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 27
+        Column: 5
+      End:
+        Line: 27
+        Column: 25
+    BodyLocation:
+      Start:
+        Line: 27
+        Column: 0
+      End:
+        Line: 30
+        Column: 1
+- FileURI: file:///home/xli/NAS/home/bin/mini-jvm/utils/bytecode.c
+  Functions:
+  - Name: bytecode_init
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 23
+        Column: 5
+      End:
+        Line: 23
+        Column: 18
+    BodyLocation:
+      Start:
+        Line: 23
+        Column: 0
+      End:
+        Line: 28
+        Column: 1
+- FileURI: file:///home/xli/NAS/home/bin/mini-jvm/utils/exception.c
+  Functions:
+  - Name: get_last_exception
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 23
+        Column: 13
+      End:
+        Line: 23
+        Column: 31
+    BodyLocation:
+      Start:
+        Line: 23
+        Column: 0
+      End:
+        Line: 26
+        Column: 1
+  - Name: throw_exception_object_native
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 17
+        Column: 5
+      End:
+        Line: 17
+        Column: 34
+    BodyLocation:
+      Start:
+        Line: 17
+        Column: 0
+      End:
+        Line: 21
+        Column: 1
+  - Name: throw_exception_object_java
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 11
+        Column: 15
+      End:
+        Line: 11
+        Column: 42
+    BodyLocation:
+      Start:
+        Line: 11
+        Column: 0
+      End:
+        Line: 15
+        Column: 1
+  - Name: throw_exception_name_native
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 5
+        Column: 5
+      End:
+        Line: 5
+        Column: 32
+    BodyLocation:
+      Start:
+        Line: 5
+        Column: 0
+      End:
+        Line: 9
+        Column: 1
+- FileURI: file:///home/xli/NAS/home/bin/mini-jvm/utils/runtime.c
+  Functions:
+  - Name: execute_class_initializer
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 96
+        Column: 5
+      End:
+        Line: 96
+        Column: 30
+    BodyLocation:
+      Start:
+        Line: 96
+        Column: 0
+      End:
+        Line: 103
+        Column: 1
+  - Name: method_init_bincode
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 85
+        Column: 5
+      End:
+        Line: 85
+        Column: 24
+    BodyLocation:
+      Start:
+        Line: 85
+        Column: 0
+      End:
+        Line: 91
+        Column: 1
+  - Name: run_java_main
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 56
+        Column: 5
+      End:
+        Line: 56
+        Column: 18
+    BodyLocation:
+      Start:
+        Line: 56
+        Column: 0
+      End:
+        Line: 83
+        Column: 1
+  - Name: get_sys_loader
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 51
+        Column: 19
+      End:
+        Line: 51
+        Column: 33
+    BodyLocation:
+      Start:
+        Line: 51
+        Column: 0
+      End:
+        Line: 54
+        Column: 1
+  - Name: new_java_array
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 45
+        Column: 17
+      End:
+        Line: 45
+        Column: 31
+    BodyLocation:
+      Start:
+        Line: 45
+        Column: 0
+      End:
+        Line: 49
+        Column: 1
+- FileURI: file:///home/xli/NAS/home/bin/mini-jvm/utils/utils.c
+  Functions:
+  - Name: java_object_checkcast
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 434
+        Column: 15
+      End:
+        Line: 434
+        Column: 36
+    BodyLocation:
+      Start:
+        Line: 434
+        Column: 0
+      End:
+        Line: 451
+        Column: 1
+  - Name: java_instanceof_class
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 404
+        Column: 5
+      End:
+        Line: 404
+        Column: 26
+    BodyLocation:
+      Start:
+        Line: 404
+        Column: 0
+      End:
+        Line: 432
+        Column: 1
+  - Name: get_primitive_class_from_type
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 379
+        Column: 12
+      End:
+        Line: 379
+        Column: 41
+    BodyLocation:
+      Start:
+        Line: 379
+        Column: 0
+      End:
+        Line: 402
+        Column: 1
+  - Name: java_array_get_elem_addr
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 367
+        Column: 7
+      End:
+        Line: 367
+        Column: 31
+    BodyLocation:
+      Start:
+        Line: 367
+        Column: 0
+      End:
+        Line: 377
+        Column: 1
+  - Name: java_object_get_field
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 352
+        Column: 5
+      End:
+        Line: 352
+        Column: 26
+    BodyLocation:
+      Start:
+        Line: 352
+        Column: 0
+      End:
+        Line: 365
+        Column: 1
+  - Name: java_object_set_field
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 337
+        Column: 5
+      End:
+        Line: 337
+        Column: 26
+    BodyLocation:
+      Start:
+        Line: 337
+        Column: 0
+      End:
+        Line: 350
+        Column: 1
+  - Name: get_jstring_from_kstring
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 314
+        Column: 13
+      End:
+        Line: 314
+        Column: 37
+    BodyLocation:
+      Start:
+        Line: 314
+        Column: 0
+      End:
+        Line: 335
+        Column: 1
+  - Name: get_kstring_from_jstring
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 304
+        Column: 13
+      End:
+        Line: 304
+        Column: 37
+    BodyLocation:
+      Start:
+        Line: 304
+        Column: 0
+      End:
+        Line: 312
+        Column: 1
+  - Name: new_jarray_from_kstring
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 284
+        Column: 17
+      End:
+        Line: 284
+        Column: 40
+    BodyLocation:
+      Start:
+        Line: 284
+        Column: 0
+      End:
+        Line: 302
+        Column: 1
+  - Name: new_kstring_from_jarray
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 271
+        Column: 13
+      End:
+        Line: 271
+        Column: 36
+    BodyLocation:
+      Start:
+        Line: 271
+        Column: 0
+      End:
+        Line: 282
+        Column: 1
+  - Name: unpack_utf8
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 243
+        Column: 12
+      End:
+        Line: 243
+        Column: 23
+    BodyLocation:
+      Start:
+        Line: 243
+        Column: 0
+      End:
+        Line: 269
+        Column: 1
+  - Name: pack_utf8
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 215
+        Column: 5
+      End:
+        Line: 215
+        Column: 14
+    BodyLocation:
+      Start:
+        Line: 215
+        Column: 0
+      End:
+        Line: 241
+        Column: 1
+  - Name: get_utf8_length_of_unicode
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 197
+        Column: 14
+      End:
+        Line: 197
+        Column: 40
+    BodyLocation:
+      Start:
+        Line: 197
+        Column: 0
+      End:
+        Line: 213
+        Column: 1
+  - Name: get_unicode_length_of_utf8
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 176
+        Column: 14
+      End:
+        Line: 176
+        Column: 40
+    BodyLocation:
+      Start:
+        Line: 176
+        Column: 0
+      End:
+        Line: 195
+        Column: 1
+  - Name: log2
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 168
+        Column: 6
+      End:
+        Line: 168
+        Column: 10
+    BodyLocation:
+      Start:
+        Line: 168
+        Column: 0
+      End:
+        Line: 174
+        Column: 1
+  - Name: get_chars_hash
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 156
+        Column: 7
+      End:
+        Line: 156
+        Column: 21
+    BodyLocation:
+      Start:
+        Line: 156
+        Column: 0
+      End:
+        Line: 166
+        Column: 1
+  - Name: get_next_path
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 129
+        Column: 6
+      End:
+        Line: 129
+        Column: 19
+    BodyLocation:
+      Start:
+        Line: 129
+        Column: 0
+      End:
+        Line: 154
+        Column: 1
+  - Name: classname_from_qualified_to_internal
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 113
+        Column: 13
+      End:
+        Line: 113
+        Column: 49
+    BodyLocation:
+      Start:
+        Line: 113
+        Column: 0
+      End:
+        Line: 127
+        Column: 1
+  - Name: get_full_filename
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 102
+        Column: 13
+      End:
+        Line: 102
+        Column: 30
+    BodyLocation:
+      Start:
+        Line: 102
+        Column: 0
+      End:
+        Line: 111
+        Column: 1
+  - Name: classname_get_classfile_name
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 94
+        Column: 13
+      End:
+        Line: 94
+        Column: 41
+    BodyLocation:
+      Start:
+        Line: 94
+        Column: 0
+      End:
+        Line: 100
+        Column: 1
+  - Name: convert_path_separator
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 75
+        Column: 5
+      End:
+        Line: 75
+        Column: 27
+    BodyLocation:
+      Start:
+        Line: 75
+        Column: 0
+      End:
+        Line: 92
+        Column: 1
+  - Name: typesize_chars
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 68
+        Column: 7
+      End:
+        Line: 68
+        Column: 21
+    BodyLocation:
+      Start:
+        Line: 68
+        Column: 0
+      End:
+        Line: 73
+        Column: 1
+  - Name: typesize_string
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 62
+        Column: 7
+      End:
+        Line: 62
+        Column: 22
+    BodyLocation:
+      Start:
+        Line: 62
+        Column: 0
+      End:
+        Line: 66
+        Column: 1
+  - Name: typesize_type
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 33
+        Column: 7
+      End:
+        Line: 33
+        Column: 20
+    BodyLocation:
+      Start:
+        Line: 33
+        Column: 0
+      End:
+        Line: 60
+        Column: 1
+  - Name: is_ref_type_string
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 26
+        Column: 5
+      End:
+        Line: 26
+        Column: 23
+    BodyLocation:
+      Start:
+        Line: 26
+        Column: 0
+      End:
+        Line: 31
+        Column: 1
+  - Name: is_ref_type_chars
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 19
+        Column: 5
+      End:
+        Line: 19
+        Column: 22
+    BodyLocation:
+      Start:
+        Line: 19
+        Column: 0
+      End:
+        Line: 24
+        Column: 1
+  - Name: is_ref_type_type
+    Kind: Function
+    NameLocation:
+      Start:
+        Line: 11
+        Column: 5
+      End:
+        Line: 11
+        Column: 21
+    BodyLocation:
+      Start:
+        Line: 11
+        Column: 0
+      End:
+        Line: 17
+        Column: 1

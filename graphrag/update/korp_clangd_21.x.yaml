@@ -224,7 +224,6 @@ CanonicalDeclaration:
   End:
     Line:            538
     Column:          19
-References:      1
 Flags:           25
 Signature:       '(unsigned long)'
 TemplateSpecializationArgs: ''
@@ -6335,7 +6334,7 @@ ReturnType:      'korp_string *'
 Type:            'c:*$@S@_korp_string'
 IncludeHeaders:
   - Header:          'file:///home/xli/NAS/home/bin/mini-jvm/class/string_pool.h'
-    References:      2
+    References:      1
 ...
 --- !Symbol
 ID:              CA3381CC4A628E1E
@@ -7268,6 +7267,7 @@ Definition:
   End:
     Line:            107
     Column:          49
+References:      1
 Flags:           25
 Signature:       ''
 TemplateSpecializationArgs: ''
@@ -7869,7 +7869,7 @@ ReturnType:      'korp_string_pool *'
 Type:            'c:*$@S@_korp_string_pool'
 IncludeHeaders:
   - Header:          'file:///home/xli/NAS/home/bin/mini-jvm/class/string_pool.h'
-    References:      2
+    References:      1
 ...
 --- !Symbol
 ID:              2E18581DF328AB25
@@ -8844,13 +8844,13 @@ CanonicalDeclaration:
     Line:            135
     Column:          33
 Definition:
-  FileURI:         'file:///home/xli/NAS/home/bin/mini-jvm/include/korp_types.h'
+  FileURI:         'file:///home/xli/NAS/home/bin/mini-jvm/include/environment.h'
   Start:
-    Line:            135
-    Column:          25
+    Line:            95
+    Column:          1
   End:
-    Line:            135
-    Column:          33
+    Line:            95
+    Column:          9
 Flags:           9
 Signature:       ''
 TemplateSpecializationArgs: ''
@@ -8859,9 +8859,9 @@ Documentation:   ''
 ReturnType:      ''
 Type:            ''
 IncludeHeaders:
-  - Header:          'file:///home/xli/NAS/home/bin/mini-jvm/include/korp_types.h'
-    References:      1
   - Header:          'file:///home/xli/NAS/home/bin/mini-jvm/include/environment.h'
+    References:      1
+  - Header:          'file:///home/xli/NAS/home/bin/mini-jvm/include/korp_types.h'
     References:      1
 ...
 --- !Symbol
@@ -9630,6 +9630,7 @@ Definition:
   End:
     Line:            95
     Column:          12
+References:      1
 Flags:           25
 Signature:       ''
 TemplateSpecializationArgs: ''
@@ -12354,6 +12355,7 @@ CanonicalDeclaration:
   End:
     Line:            46
     Column:          20
+References:      1
 Flags:           25
 Signature:       '(void *, const void *, unsigned long)'
 TemplateSpecializationArgs: ''
@@ -13774,7 +13776,7 @@ ReturnType:      void
 Type:            'c:v'
 IncludeHeaders:
   - Header:          'file:///home/xli/NAS/home/bin/mini-jvm/class/string_pool.h'
-    References:      2
+    References:      1
 ...
 --- !Symbol
 ID:              E50305B797BBA347
@@ -16988,6 +16990,7 @@ CanonicalDeclaration:
   End:
     Line:            60
     Column:          19
+References:      1
 Flags:           25
 Signature:       '(void *, int, unsigned long)'
 TemplateSpecializationArgs: ''
@@ -17627,7 +17630,7 @@ Documentation:   'interned representation of string '
 ReturnType:      ''
 Type:            ''
 IncludeHeaders:
-  - Header:          'file:///home/xli/NAS/home/bin/mini-jvm/class/string_pool.h'
+  - Header:          'file:///home/xli/NAS/home/bin/mini-jvm/include/korp_types.h'
     References:      1
 ...
 --- !Symbol
@@ -19530,7 +19533,7 @@ Documentation:   'global string pool '
 ReturnType:      ''
 Type:            ''
 IncludeHeaders:
-  - Header:          'file:///home/xli/NAS/home/bin/mini-jvm/class/string_pool.h'
+  - Header:          'file:///home/xli/NAS/home/bin/mini-jvm/include/korp_types.h'
     References:      1
 ...
 --- !Symbol
@@ -33902,7 +33905,6 @@ Definition:
   End:
     Line:            82
     Column:          22
-References:      1
 Flags:           8
 Signature:       ''
 TemplateSpecializationArgs: ''
@@ -34643,6 +34645,7 @@ Definition:
   End:
     Line:            128
     Column:          39
+References:      1
 Flags:           25
 Signature:       ''
 TemplateSpecializationArgs: ''
@@ -36434,7 +36437,7 @@ ReturnType:      bool
 Type:            'c:I'
 IncludeHeaders:
   - Header:          'file:///home/xli/NAS/home/bin/mini-jvm/class/class_loader.h'
-    References:      1
+    References:      2
 ...
 --- !Symbol
 ID:              D17D24F6E2C699C2
@@ -37767,7 +37770,7 @@ ReturnType:      void
 Type:            'c:v'
 IncludeHeaders:
   - Header:          'file:///home/xli/NAS/home/bin/mini-jvm/class/vm_interface.h'
-    References:      2
+    References:      1
 ...
 --- !Symbol
 ID:              5CDD3DF73621A4C9
@@ -38392,6 +38395,7 @@ Definition:
   End:
     Line:            11
     Column:          14
+References:      1
 Flags:           8
 Signature:       ''
 TemplateSpecializationArgs: ''
@@ -38880,6 +38884,7 @@ Definition:
   End:
     Line:            93
     Column:          16
+References:      1
 Flags:           25
 Signature:       ''
 TemplateSpecializationArgs: ''
@@ -39257,14 +39262,13 @@ CanonicalDeclaration:
     Line:            133
     Column:          37
 Definition:
-  FileURI:         'file:///home/xli/NAS/home/bin/mini-jvm/include/korp_types.h'
+  FileURI:         'file:///home/xli/NAS/home/bin/mini-jvm/include/environment.h'
   Start:
-    Line:            133
-    Column:          27
+    Line:            83
+    Column:          1
   End:
-    Line:            133
-    Column:          37
-References:      1
+    Line:            83
+    Column:          11
 Flags:           9
 Signature:       ''
 TemplateSpecializationArgs: ''
@@ -39273,9 +39277,9 @@ Documentation:   ''
 ReturnType:      ''
 Type:            ''
 IncludeHeaders:
-  - Header:          'file:///home/xli/NAS/home/bin/mini-jvm/include/korp_types.h'
-    References:      1
   - Header:          'file:///home/xli/NAS/home/bin/mini-jvm/include/environment.h'
+    References:      1
+  - Header:          'file:///home/xli/NAS/home/bin/mini-jvm/include/korp_types.h'
     References:      1
 ...
 --- !Symbol
@@ -42377,7 +42381,6 @@ Definition:
   End:
     Line:            81
     Column:          20
-References:      1
 Flags:           8
 Signature:       ''
 TemplateSpecializationArgs: ''
@@ -46529,6 +46532,7 @@ Definition:
   End:
     Line:            94
     Column:          15
+References:      1
 Flags:           25
 Signature:       ''
 TemplateSpecializationArgs: ''
@@ -47175,6 +47179,7 @@ Definition:
   End:
     Line:            18
     Column:          22
+References:      1
 Flags:           8
 Signature:       ''
 TemplateSpecializationArgs: ''
@@ -117440,6 +117445,21 @@ References:
       End:
         Line:            421
         Column:          53
+    Container:
+      ID:              '0000000000000000'
+...
+--- !Refs
+ID:              A699DE78B9D99772
+References:
+  - Kind:            10
+    Location:
+      FileURI:         'file:///home/xli/NAS/home/bin/mini-jvm/include/vm_for_gc.h'
+      Start:
+        Line:            6
+        Column:          8
+      End:
+        Line:            6
+        Column:          21
     Container:
       ID:              '0000000000000000'
 ...
