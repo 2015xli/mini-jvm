@@ -1,0 +1,179 @@
+python clangd_graph_rag_builder.py  ~/NAS/home/bin/mini-jvm/mini_jvm_clangd_index.yaml  ~/NAS/home/bin/mini-jvm/  --generate-summary 
+2025-11-20 22:41:37,350 - [INFO] 
+--- Starting Pass 1: Parsing Source Code ---
+2025-11-20 22:41:37,358 - [INFO] No valid parser cache found or cache is stale. Parsing source files...
+2025-11-20 22:41:37,389 - [INFO] Scanning project folder for source files...
+2025-11-20 22:41:37,546 - [INFO] Parsing 24 TUs with clang using 10 workers...
+Parsing TUs (clang): 100%|███████████████████████████████████████████████████████████████████████████████████| 24/24 [00:00<00:00, 40.85it/s]
+2025-11-20 22:41:38,221 - [INFO] Finished parsing 45 source files.
+2025-11-20 22:41:38,221 - [INFO] Saving new extracted data to cache: /home/xli/NAS/home/bin/mini-jvm/compilation_parser_mini-jvm.pkl
+2025-11-20 22:41:38,265 - [INFO] --- Finished Pass 1 ---
+2025-11-20 22:41:38,266 - [INFO] 
+--- Starting Pass 0: Parsing Clangd Index ---
+2025-11-20 22:41:38,266 - [INFO] Found valid cache file: /home/xli/NAS/home/bin/mini-jvm/mini_jvm_clangd_index.pkl
+2025-11-20 22:41:38,266 - [INFO] To force re-parsing the YAML, delete the .pkl file or touch the YAML file and run again.
+2025-11-20 22:41:38,266 - [INFO] Loading parsed symbols from cache: /home/xli/NAS/home/bin/mini-jvm/mini_jvm_clangd_index.pkl
+2025-11-20 22:41:38,322 - [INFO] Successfully loaded symbols from cache.
+2025-11-20 22:41:38,322 - [INFO] --- Finished Pass 0 ---
+2025-11-20 22:41:38,322 - [INFO] 
+--- Starting Pass 2: Enriching Symbols with Spans ---
+2025-11-20 22:41:38,326 - [INFO] Filtering symbols to only include those in the project path.
+2025-11-20 22:41:38,333 - [INFO] Filtered 1516 symbols to 1012 symbols.
+2025-11-20 22:41:38,376 - [INFO] Processing SpanTrees from 36 files for enrichment.
+2025-11-20 22:41:38,387 - [INFO] Matched and enriched 263 existing symbols; added 4 synthetic symbols.
+2025-11-20 22:41:38,387 - [INFO] Assigned parent_id to symbols: 653 by ref, 4 by span sym id, 0 by span syn id.
+2025-11-20 22:41:38,423 - [INFO] Found remaining symbols' parent with lexical scope: 0 without body, 0 with body.
+2025-11-20 22:41:38,423 - [INFO] Total parent_id assigned to 657 symbols.
+2025-11-20 22:41:38,456 - [INFO] Enriched 263 symbols with body_location.
+2025-11-20 22:41:38,487 - [INFO] --- Finished Pass 2 ---
+2025-11-20 22:41:38,496 - [INFO] ✅ Connection established!
+2025-11-20 22:41:38,496 - [INFO] Deleting existing data...
+2025-11-20 22:41:38,660 - [INFO] Database cleared.
+2025-11-20 22:41:39,778 - [INFO] Stamped PROJECT node with commit hash: 267af5332fb5492f032a654e0eb03eca17928d5a
+2025-11-20 22:41:39,788 - [INFO] Received notification from DBMS server: {severity: INFORMATION} {code: Neo.ClientNotification.Schema.IndexOrConstraintAlreadyExists} {category: SCHEMA} {title: `CREATE CONSTRAINT IF NOT EXISTS FOR (e:FILE) REQUIRE (e.path) IS UNIQUE` has no effect.} {description: `CONSTRAINT constraint_13e06c1e FOR (e:FILE) REQUIRE (e.path) IS UNIQUE` already exists.} {position: None} for query: 'CREATE CONSTRAINT IF NOT EXISTS FOR (f:FILE) REQUIRE f.path IS UNIQUE'
+2025-11-20 22:41:39,792 - [INFO] Received notification from DBMS server: {severity: INFORMATION} {code: Neo.ClientNotification.Schema.IndexOrConstraintAlreadyExists} {category: SCHEMA} {title: `CREATE CONSTRAINT IF NOT EXISTS FOR (e:FOLDER) REQUIRE (e.path) IS UNIQUE` has no effect.} {description: `CONSTRAINT constraint_93d355b8 FOR (e:FOLDER) REQUIRE (e.path) IS UNIQUE` already exists.} {position: None} for query: 'CREATE CONSTRAINT IF NOT EXISTS FOR (f:FOLDER) REQUIRE f.path IS UNIQUE'
+2025-11-20 22:41:39,795 - [INFO] Received notification from DBMS server: {severity: INFORMATION} {code: Neo.ClientNotification.Schema.IndexOrConstraintAlreadyExists} {category: SCHEMA} {title: `CREATE CONSTRAINT IF NOT EXISTS FOR (e:FUNCTION) REQUIRE (e.id) IS UNIQUE` has no effect.} {description: `CONSTRAINT constraint_e1315f61 FOR (e:FUNCTION) REQUIRE (e.id) IS UNIQUE` already exists.} {position: None} for query: 'CREATE CONSTRAINT IF NOT EXISTS FOR (fn:FUNCTION) REQUIRE fn.id IS UNIQUE'
+2025-11-20 22:41:39,798 - [INFO] Received notification from DBMS server: {severity: INFORMATION} {code: Neo.ClientNotification.Schema.IndexOrConstraintAlreadyExists} {category: SCHEMA} {title: `CREATE CONSTRAINT IF NOT EXISTS FOR (e:DATA_STRUCTURE) REQUIRE (e.id) IS UNIQUE` has no effect.} {description: `CONSTRAINT constraint_67cbbd90 FOR (e:DATA_STRUCTURE) REQUIRE (e.id) IS UNIQUE` already exists.} {position: None} for query: 'CREATE CONSTRAINT IF NOT EXISTS FOR (ds:DATA_STRUCTURE) REQUIRE ds.id IS UNIQUE'
+2025-11-20 22:41:39,800 - [INFO] Received notification from DBMS server: {severity: INFORMATION} {code: Neo.ClientNotification.Schema.IndexOrConstraintAlreadyExists} {category: SCHEMA} {title: `CREATE CONSTRAINT IF NOT EXISTS FOR (e:CLASS_STRUCTURE) REQUIRE (e.id) IS UNIQUE` has no effect.} {description: `CONSTRAINT constraint_a6d59b9f FOR (e:CLASS_STRUCTURE) REQUIRE (e.id) IS UNIQUE` already exists.} {position: None} for query: 'CREATE CONSTRAINT IF NOT EXISTS FOR (c:CLASS_STRUCTURE) REQUIRE c.id IS UNIQUE'
+2025-11-20 22:41:39,802 - [INFO] Received notification from DBMS server: {severity: INFORMATION} {code: Neo.ClientNotification.Schema.IndexOrConstraintAlreadyExists} {category: SCHEMA} {title: `CREATE CONSTRAINT IF NOT EXISTS FOR (e:METHOD) REQUIRE (e.id) IS UNIQUE` has no effect.} {description: `CONSTRAINT constraint_b517845c FOR (e:METHOD) REQUIRE (e.id) IS UNIQUE` already exists.} {position: None} for query: 'CREATE CONSTRAINT IF NOT EXISTS FOR (m:METHOD) REQUIRE m.id IS UNIQUE'
+2025-11-20 22:41:39,806 - [INFO] Received notification from DBMS server: {severity: INFORMATION} {code: Neo.ClientNotification.Schema.IndexOrConstraintAlreadyExists} {category: SCHEMA} {title: `CREATE CONSTRAINT IF NOT EXISTS FOR (e:FIELD) REQUIRE (e.id) IS UNIQUE` has no effect.} {description: `CONSTRAINT constraint_4bfcb782 FOR (e:FIELD) REQUIRE (e.id) IS UNIQUE` already exists.} {position: None} for query: 'CREATE CONSTRAINT IF NOT EXISTS FOR (f:FIELD) REQUIRE f.id IS UNIQUE'
+2025-11-20 22:41:39,809 - [INFO] Received notification from DBMS server: {severity: INFORMATION} {code: Neo.ClientNotification.Schema.IndexOrConstraintAlreadyExists} {category: SCHEMA} {title: `CREATE CONSTRAINT IF NOT EXISTS FOR (e:VARIABLE) REQUIRE (e.id) IS UNIQUE` has no effect.} {description: `CONSTRAINT constraint_40e05e52 FOR (e:VARIABLE) REQUIRE (e.id) IS UNIQUE` already exists.} {position: None} for query: 'CREATE CONSTRAINT IF NOT EXISTS FOR (v:VARIABLE) REQUIRE v.id IS UNIQUE'
+2025-11-20 22:41:39,811 - [INFO] Received notification from DBMS server: {severity: INFORMATION} {code: Neo.ClientNotification.Schema.IndexOrConstraintAlreadyExists} {category: SCHEMA} {title: `CREATE CONSTRAINT IF NOT EXISTS FOR (e:NAMESPACE) REQUIRE (e.id) IS UNIQUE` has no effect.} {description: `CONSTRAINT constraint_746259f FOR (e:NAMESPACE) REQUIRE (e.id) IS UNIQUE` already exists.} {position: None} for query: 'CREATE CONSTRAINT IF NOT EXISTS FOR (n:NAMESPACE) REQUIRE n.id IS UNIQUE'
+2025-11-20 22:41:39,812 - [INFO] 
+--- Starting Pass 3: Ingesting File & Folder Structure ---
+2025-11-20 22:41:39,813 - [INFO] Consolidating all unique file and folder paths...
+2025-11-20 22:41:39,813 - [INFO] Discovering file paths from symbols...
+Discovering paths from symbols: 100%|█████████████████████████████████████████████████████████████████| 1016/1016 [00:00<00:00, 27191.08it/s]
+2025-11-20 22:41:39,851 - [INFO] Discovered 41 unique files from symbols.
+2025-11-20 22:41:39,851 - [INFO] Discovering file paths from include relations...
+Discovering paths from includes: 100%|██████████████████████████████████████████████████████████████████| 111/111 [00:00<00:00, 56112.78it/s]
+2025-11-20 22:41:39,853 - [INFO] Discovered 45 unique files from includes.
+2025-11-20 22:41:39,853 - [INFO] Consolidated to 45 unique project files and 7 unique project folders.
+2025-11-20 22:41:39,853 - [INFO] Creating 7 folder nodes and relationships in batches...
+Ingesting FOLDER nodes: 100%|█████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 117.23it/s]
+2025-11-20 22:41:39,862 - [INFO]   Total FOLDER nodes created: 7, properties set: 14
+2025-11-20 22:41:39,862 - [INFO]   Total CONTAINS relationships created for FOLDERs: 7
+2025-11-20 22:41:39,906 - [INFO] Creating 45 file nodes and relationships in batches...
+Ingesting FILE nodes: 100%|████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 35.42it/s]
+2025-11-20 22:41:39,935 - [INFO]   Total FILE nodes created: 45, properties set: 90
+2025-11-20 22:41:39,935 - [INFO]   Total CONTAINS relationships created for FILEs: 45
+2025-11-20 22:41:40,026 - [INFO] --- Finished Pass 3 ---
+2025-11-20 22:41:40,027 - [INFO] 
+--- Starting Pass 4: Ingesting Symbol Definitions ---
+2025-11-20 22:41:40,027 - [INFO] Phase 1: Building scope maps and processing symbols...
+2025-11-20 22:41:40,027 - [INFO] Building scope-to-ID lookup maps for namespaces...
+Building scope maps: 100%|██████████████████████████████████████████████████████████████████████████| 1016/1016 [00:00<00:00, 1910947.47it/s]
+2025-11-20 22:41:40,028 - [INFO] Built map for 0 namespaces.
+2025-11-20 22:41:40,028 - [INFO] Processing symbols for ingestion...
+Processing and grouping symbols by kind: 100%|████████████████████████████████████████████████████████| 1016/1016 [00:00<00:00, 33226.87it/s]
+2025-11-20 22:41:40,059 - [INFO] Phase 2: Ingesting all nodes...
+2025-11-20 22:41:40,059 - [INFO] Creating 65 DATA_STRUCTURE nodes in batches (1 batch = 20000 nodes)...
+Ingesting DATA_STRUCTURE nodes: 100%|██████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 11.89it/s]
+2025-11-20 22:41:40,143 - [INFO]   Total DATA_STRUCTURE nodes created: 65, properties set: 784
+2025-11-20 22:41:40,143 - [INFO] Creating 204 FUNCTION nodes in batches (1 batch = 20000 nodes)...
+Ingesting FUNCTION nodes: 100%|████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 14.74it/s]
+2025-11-20 22:41:40,212 - [INFO]   Total FUNCTION nodes created: 204, properties set: 3056
+2025-11-20 22:41:40,212 - [INFO] Creating 653 FIELD nodes in batches (1 batch = 20000 nodes)...
+Ingesting FIELD nodes: 100%|███████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  8.84it/s]
+2025-11-20 22:41:40,326 - [INFO]   Total FIELD nodes created: 653, properties set: 8489
+2025-11-20 22:41:40,326 - [INFO] Creating 13 VARIABLE nodes in batches (1 batch = 20000 nodes)...
+Ingesting VARIABLE nodes: 100%|███████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 154.66it/s]
+2025-11-20 22:41:40,333 - [INFO]   Total VARIABLE nodes created: 13, properties set: 156
+2025-11-20 22:41:40,333 - [INFO] Phase 3: Ingesting all relationships...
+2025-11-20 22:41:40,333 - [INFO] Creating HAS_NESTED relationships for 1 group(s)...
+2025-11-20 22:41:40,333 - [INFO]   Ingesting 4 :HAS_NESTED relationships for (DATA_STRUCTURE)->(DATA_STRUCTURE)
+Ingesting (DATA_STRUCTURE)-[:HAS_NESTED]->(DATA_STRUCTURE): 100%|██████████████████████████████████████████████| 1/1 [00:00<00:00, 23.96it/s]
+2025-11-20 22:41:40,376 - [INFO]   Total HAS_NESTED relationships created: 4
+2025-11-20 22:41:40,376 - [INFO] Found 280 potential DEFINES relationships. Breakdown by kind: Enum: 17, Function: 202, Struct: 47, Union: 1, Variable: 13
+2025-11-20 22:41:40,376 - [INFO] Creating relationships in batches using sequential UNWIND MERGE...
+2025-11-20 22:41:40,376 - [INFO]   Ingesting 202 FUNCTION DEFINES relationships in batches (1 batch = 20000 relationships)...
+DEFINES (Functions, sequential): 100%|█████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 17.11it/s]
+2025-11-20 22:41:40,435 - [INFO]   Total FUNCTION DEFINES relationships created: 202
+2025-11-20 22:41:40,435 - [INFO]   Ingesting 65 DATA_STRUCTURE DEFINES relationships in batches (1 batch = 20000 relationships)...
+DEFINES (Data Structures, sequential): 100%|███████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 22.38it/s]
+2025-11-20 22:41:40,480 - [INFO]   Total DATA_STRUCTURE DEFINES relationships created: 65
+2025-11-20 22:41:40,480 - [INFO]   Ingesting 13 VARIABLE DEFINES relationships in batches (1 batch = 20000 relationships)...
+DEFINES (Variables, sequential): 100%|█████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 22.84it/s]
+2025-11-20 22:41:40,525 - [INFO]   Total VARIABLE DEFINES relationships created: 13
+2025-11-20 22:41:40,525 - [INFO] Finished DEFINES relationship ingestion (sequential UNWIND MERGE).
+2025-11-20 22:41:40,525 - [INFO] Creating 653 HAS_FIELD relationships in batches...
+Ingesting HAS_FIELD relationships: 100%|███████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  4.87it/s]
+2025-11-20 22:41:40,730 - [INFO]   Total HAS_FIELD relationships created: 653
+2025-11-20 22:41:40,829 - [INFO] --- Finished Pass 4 ---
+2025-11-20 22:41:40,829 - [INFO] 
+--- Starting Pass 5: Ingesting Include Relations ---
+2025-11-20 22:41:40,829 - [INFO] Preparing to ingest :INCLUDES relationships into the graph...
+2025-11-20 22:41:40,830 - [INFO] Ingesting 111 internal include relations.
+2025-11-20 22:41:40,830 - [INFO] Ingesting 111 :INCLUDES relationships in batches of 1000...
+Ingesting INCLUDES relationships: 100%|████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 28.27it/s]
+2025-11-20 22:41:40,866 - [INFO] Finished ingesting :INCLUDES relationships. Total new relationships: 111.
+2025-11-20 22:41:40,911 - [INFO] --- Finished Pass 5 ---
+2025-11-20 22:41:40,911 - [INFO] 
+--- Starting Pass 6: Ingesting Call Graph ---
+2025-11-20 22:41:40,911 - [INFO] Using ClangdCallGraphExtractorWithContainer (new format detected).
+2025-11-20 22:41:40,911 - [INFO] Extracting call relationships using Container field...
+2025-11-20 22:41:40,913 - [INFO] Extracted 330 call relationships
+2025-11-20 22:41:40,913 - [INFO] Preparing 330 call relationships for batched ingestion (1 batch = 20000 relationships)...
+Ingesting CALLS relations: 100%|███████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 13.20it/s]
+2025-11-20 22:41:40,989 - [INFO] Finished processing 330 call relationships in batches.
+2025-11-20 22:41:40,989 - [INFO]   Total CALLS relationships created: 330
+2025-11-20 22:41:41,043 - [INFO] --- Finished Pass 6 ---
+2025-11-20 22:41:41,043 - [INFO] Deleting SymbolParser to free memory before RAG pass...
+2025-11-20 22:41:41,076 - [INFO] 
+--- Starting Pass 7: Generating Summaries and Embeddings ---
+2025-11-20 22:41:41,381 - [INFO] Initializing local SentenceTransformer client for embeddings.
+2025-11-20 22:41:55,930 - [INFO] Loading local SentenceTransformer model: all-MiniLM-L6-v2
+2025-11-20 22:41:55,971 - [INFO] Use pytorch device_name: cuda:0
+2025-11-20 22:41:55,971 - [INFO] Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-11-20 22:41:58,894 - [INFO] SentenceTransformer model loaded successfully.
+2025-11-20 22:41:59,146 - [INFO] 
+--- Starting Pass 1: Summarizing Functions & Methods Individually ---
+2025-11-20 22:41:59,282 - [INFO] Found 202 functions/methods that need code summaries.
+2025-11-20 22:41:59,283 - [INFO] Using 100 parallel workers for Pass 1.
+Pass 1: Code Summaries: 100%|█████████████████████████████████████████████████████████████████████████████| 202/202 [00:01<00:00, 159.40it/s]
+2025-11-20 22:42:00,568 - [INFO] --- Finished Pass 1 ---
+2025-11-20 22:42:00,568 - [INFO] --- Starting Pass 2: Summarizing Functions & Methods With Context ---
+Pass 2: Context Summaries: 100%|██████████████████████████████████████████████████████████████████████████| 202/202 [00:01<00:00, 199.14it/s]
+2025-11-20 22:42:01,729 - [INFO] --- Finished Pass 2 ---
+2025-11-20 22:42:01,729 - [INFO] 
+--- Starting Pass 3: Summarizing Class Structures ---
+2025-11-20 22:42:01,797 - [INFO] No class structures require summarization.
+2025-11-20 22:42:01,797 - [INFO] 
+--- Starting Pass 4: Summarizing Namespaces ---
+2025-11-20 22:42:01,816 - [INFO] No namespaces require summarization.
+2025-11-20 22:42:01,816 - [INFO] --- Starting File and Folder Summarization ---
+2025-11-20 22:42:01,816 - [INFO] 
+--- Starting Pass 5: Summarizing All Files ---
+2025-11-20 22:42:01,830 - [INFO] Summarizing 45 FILE nodes...
+File Summaries: 100%|███████████████████████████████████████████████████████████████████████████████████████| 45/45 [00:00<00:00, 385.27it/s]
+2025-11-20 22:42:01,985 - [INFO] 
+--- Starting Pass 6: Summarizing All Folders (bottom-up) ---
+2025-11-20 22:42:01,996 - [INFO] Found 7 potentially affected FOLDER nodes. Verifying existence in graph...
+2025-11-20 22:42:02,213 - [INFO] Rolling up summaries for 7 existing FOLDER nodes...
+Folder Roll-up (Depth 0): 100%|████████████████████████████████████████████████████████████████████████████████| 7/7 [00:00<00:00, 60.94it/s]
+2025-11-20 22:42:02,335 - [INFO] Summarizing the PROJECT node...
+2025-11-20 22:42:02,385 - [INFO] -> Stored summary for PROJECT node.
+2025-11-20 22:42:02,385 - [INFO] --- Finished File and Folder Summarization ---
+2025-11-20 22:42:02,385 - [INFO] 
+--- Starting Pass 7: Generating Embeddings ---
+2025-11-20 22:42:02,467 - [INFO] Found 233 nodes with summaries to embed.
+Batches: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 8/8 [00:01<00:00,  4.36it/s]
+2025-11-20 22:42:04,346 - [INFO] Updating 233 nodes in the database in batches of 1000...
+Updating DB: 100%|█████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  1.81it/s]
+2025-11-20 22:42:04,901 - [INFO] --- Finished Pass 5 ---
+2025-11-20 22:42:04,901 - [INFO] Creating vector indices for summary embeddings...
+2025-11-20 22:42:04,991 - [INFO] Received notification from DBMS server: {severity: INFORMATION} {code: Neo.ClientNotification.Schema.IndexOrConstraintAlreadyExists} {category: SCHEMA} {title: `CREATE VECTOR INDEX function_summary_embeddings IF NOT EXISTS FOR (e:FUNCTION) ON (e.summaryEmbedding) OPTIONS {indexConfig: {`vector.dimensions`: 384, `vector.similarity_function`: "cosine"}}` has no effect.} {description: `VECTOR INDEX function_summary_embeddings FOR (e:FUNCTION) ON (e.summaryEmbedding)` already exists.} {position: None} for query: "CREATE VECTOR INDEX function_summary_embeddings IF NOT EXISTS FOR (n:FUNCTION) ON (n.summaryEmbedding) OPTIONS {indexConfig: {`vector.dimensions`: 384, `vector.similarity_function`: 'cosine'}}"
+2025-11-20 22:42:04,996 - [INFO] Received notification from DBMS server: {severity: INFORMATION} {code: Neo.ClientNotification.Schema.IndexOrConstraintAlreadyExists} {category: SCHEMA} {title: `CREATE VECTOR INDEX method_summary_embeddings IF NOT EXISTS FOR (e:METHOD) ON (e.summaryEmbedding) OPTIONS {indexConfig: {`vector.dimensions`: 384, `vector.similarity_function`: "cosine"}}` has no effect.} {description: `VECTOR INDEX method_summary_embeddings FOR (e:METHOD) ON (e.summaryEmbedding)` already exists.} {position: None} for query: "CREATE VECTOR INDEX method_summary_embeddings IF NOT EXISTS FOR (n:METHOD) ON (n.summaryEmbedding) OPTIONS {indexConfig: {`vector.dimensions`: 384, `vector.similarity_function`: 'cosine'}}"
+2025-11-20 22:42:04,999 - [INFO] Received notification from DBMS server: {severity: INFORMATION} {code: Neo.ClientNotification.Schema.IndexOrConstraintAlreadyExists} {category: SCHEMA} {title: `CREATE VECTOR INDEX class_summary_embeddings IF NOT EXISTS FOR (e:CLASS_STRUCTURE) ON (e.summaryEmbedding) OPTIONS {indexConfig: {`vector.dimensions`: 384, `vector.similarity_function`: "cosine"}}` has no effect.} {description: `VECTOR INDEX class_summary_embeddings FOR (e:CLASS_STRUCTURE) ON (e.summaryEmbedding)` already exists.} {position: None} for query: "CREATE VECTOR INDEX class_summary_embeddings IF NOT EXISTS FOR (n:CLASS_STRUCTURE) ON (n.summaryEmbedding) OPTIONS {indexConfig: {`vector.dimensions`: 384, `vector.similarity_function`: 'cosine'}}"
+2025-11-20 22:42:05,030 - [INFO] Received notification from DBMS server: {severity: INFORMATION} {code: Neo.ClientNotification.Schema.IndexOrConstraintAlreadyExists} {category: SCHEMA} {title: `CREATE VECTOR INDEX namespace_summary_embeddings IF NOT EXISTS FOR (e:NAMESPACE) ON (e.summaryEmbedding) OPTIONS {indexConfig: {`vector.dimensions`: 384, `vector.similarity_function`: "cosine"}}` has no effect.} {description: `VECTOR INDEX namespace_summary_embeddings FOR (e:NAMESPACE) ON (e.summaryEmbedding)` already exists.} {position: None} for query: "CREATE VECTOR INDEX namespace_summary_embeddings IF NOT EXISTS FOR (n:NAMESPACE) ON (n.summaryEmbedding) OPTIONS {indexConfig: {`vector.dimensions`: 384, `vector.similarity_function`: 'cosine'}}"
+2025-11-20 22:42:05,042 - [INFO] Received notification from DBMS server: {severity: INFORMATION} {code: Neo.ClientNotification.Schema.IndexOrConstraintAlreadyExists} {category: SCHEMA} {title: `CREATE VECTOR INDEX file_summary_embeddings IF NOT EXISTS FOR (e:FILE) ON (e.summaryEmbedding) OPTIONS {indexConfig: {`vector.dimensions`: 384, `vector.similarity_function`: "cosine"}}` has no effect.} {description: `VECTOR INDEX file_summary_embeddings FOR (e:FILE) ON (e.summaryEmbedding)` already exists.} {position: None} for query: "CREATE VECTOR INDEX file_summary_embeddings IF NOT EXISTS FOR (n:FILE) ON (n.summaryEmbedding) OPTIONS {indexConfig: {`vector.dimensions`: 384, `vector.similarity_function`: 'cosine'}}"
+2025-11-20 22:42:05,050 - [INFO] Vector index setup complete.
+2025-11-20 22:42:05,050 - [INFO] Received notification from DBMS server: {severity: INFORMATION} {code: Neo.ClientNotification.Schema.IndexOrConstraintAlreadyExists} {category: SCHEMA} {title: `CREATE VECTOR INDEX folder_summary_embeddings IF NOT EXISTS FOR (e:FOLDER) ON (e.summaryEmbedding) OPTIONS {indexConfig: {`vector.dimensions`: 384, `vector.similarity_function`: "cosine"}}` has no effect.} {description: `VECTOR INDEX folder_summary_embeddings FOR (e:FOLDER) ON (e.summaryEmbedding)` already exists.} {position: None} for query: "CREATE VECTOR INDEX folder_summary_embeddings IF NOT EXISTS FOR (n:FOLDER) ON (n.summaryEmbedding) OPTIONS {indexConfig: {`vector.dimensions`: 384, `vector.similarity_function`: 'cosine'}}"
+2025-11-20 22:42:05,050 - [INFO] --- Finished Pass 7 ---
+2025-11-20 22:42:05,050 - [INFO] 
+--- Starting Pass 8: Cleaning up Orphan Nodes ---
+2025-11-20 22:42:05,128 - [INFO] Removed 2 orphan nodes.
+2025-11-20 22:42:05,128 - [INFO] --- Finished Pass 8 ---
+2025-11-20 22:42:05,136 - [INFO] 
+✅ All passes complete. Code graph ingestion finished.
+

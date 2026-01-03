@@ -42,7 +42,7 @@ $(BUILD_DIR)/%.o: $(SRC_DIR)/%.c
 
 # Clean build and binary
 clean:
-	rm -rf $(BUILD_DIR) $(TARGET)
+	rm -rf $(BUILD_DIR) $(TARGET) $(OBJ_FILES)
 
 # Rebuild everything
 rebuild: clean all
