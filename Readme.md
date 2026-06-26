@@ -8,7 +8,8 @@ Once the JDK 1.1 is fully installed or extracted, \
 navigate to the \lib\ directory inside the installation folder. \
 You will find classes.zip sitting inside \lib\classes.zip. \
 Folder classes should be extracted and placed to the same directory with executable file of jvm korpvm.exe \
-(which should be built according to the instruction below) and compiled Java samples. 
+(which should be built according to the instruction below), \
+and provided compiled Java samples. 
 
 Build instruction: 
 
