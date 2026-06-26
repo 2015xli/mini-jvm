@@ -1,0 +1,2 @@
+C:/msys64/mingw32/bin/ar.exe qc libnatives.a CMakeFiles/natives.dir/natives/java_lang.cpp.obj CMakeFiles/natives.dir/natives/natives.cpp.obj
+C:/msys64/mingw32/bin/ranlib.exe libnatives.a

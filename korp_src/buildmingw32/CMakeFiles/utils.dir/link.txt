@@ -1,0 +1,2 @@
+C:/msys64/mingw32/bin/ar.exe qc libutils.a CMakeFiles/utils.dir/utils/bytecode.cpp.obj CMakeFiles/utils.dir/utils/exception.cpp.obj CMakeFiles/utils.dir/utils/runtime.cpp.obj CMakeFiles/utils.dir/utils/utils.cpp.obj
+C:/msys64/mingw32/bin/ranlib.exe libutils.a

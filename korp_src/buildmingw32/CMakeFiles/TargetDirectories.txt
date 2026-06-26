@@ -1,0 +1,8 @@
+D:/Xiao-Feng Li/jvm/korp_src/buildmingw32/CMakeFiles/class.dir
+D:/Xiao-Feng Li/jvm/korp_src/buildmingw32/CMakeFiles/gc.dir
+D:/Xiao-Feng Li/jvm/korp_src/buildmingw32/CMakeFiles/ia32_jit.dir
+D:/Xiao-Feng Li/jvm/korp_src/buildmingw32/CMakeFiles/natives.dir
+D:/Xiao-Feng Li/jvm/korp_src/buildmingw32/CMakeFiles/utils.dir
+D:/Xiao-Feng Li/jvm/korp_src/buildmingw32/CMakeFiles/korpvm.dir
+D:/Xiao-Feng Li/jvm/korp_src/buildmingw32/CMakeFiles/edit_cache.dir
+D:/Xiao-Feng Li/jvm/korp_src/buildmingw32/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,2 @@
+C:/msys64/mingw32/bin/ar.exe qc libia32_jit.a CMakeFiles/ia32_jit.dir/ia32_jit/code_gen.cpp.obj CMakeFiles/ia32_jit.dir/ia32_jit/compile.cpp.obj CMakeFiles/ia32_jit.dir/ia32_jit/jit_runtime.cpp.obj CMakeFiles/ia32_jit.dir/ia32_jit/jit_support.cpp.obj CMakeFiles/ia32_jit.dir/ia32_jit/prepass.cpp.obj CMakeFiles/ia32_jit.dir/ia32_jit/x86.cpp.obj
+C:/msys64/mingw32/bin/ranlib.exe libia32_jit.a

@@ -1,0 +1,2 @@
+C:/msys64/mingw32/bin/ar.exe qc libgc.a CMakeFiles/gc.dir/gc/object_create.cpp.obj
+C:/msys64/mingw32/bin/ranlib.exe libgc.a

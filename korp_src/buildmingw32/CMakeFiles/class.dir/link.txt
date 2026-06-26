@@ -1,0 +1,2 @@
+C:/msys64/mingw32/bin/ar.exe qc libclass.a CMakeFiles/class.dir/class/class_initialize.cpp.obj CMakeFiles/class.dir/class/class_loader.cpp.obj CMakeFiles/class.dir/class/class_parse.cpp.obj CMakeFiles/class.dir/class/class_prepare.cpp.obj CMakeFiles/class.dir/class/class_table.cpp.obj CMakeFiles/class.dir/class/class_utils.cpp.obj CMakeFiles/class.dir/class/class_verify.cpp.obj CMakeFiles/class.dir/class/method.cpp.obj CMakeFiles/class.dir/class/string_pool.cpp.obj CMakeFiles/class.dir/class/vm_interface.cpp.obj
+C:/msys64/mingw32/bin/ranlib.exe libclass.a
