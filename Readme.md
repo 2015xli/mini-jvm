@@ -8,18 +8,18 @@ Once the JDK 1.1 is fully installed or extracted, \
 navigate to the \lib\ directory inside the installation folder. \
 You will find classes.zip sitting inside \lib\classes.zip. \
 Folder classes should be extracted and placed to the same directory with executable file of jvm korpvm.exe \
-(which should be built according to the instruction below) and compiled Java samples. \
+(which should be built according to the instruction below) and compiled Java samples. 
 
-Build instruction: \
+Build instruction: 
 
-MSYS2 MinGw32: \
+MSYS2 MinGw32: 
 
-Run terminall, enter the following commands one by one: \
+Run terminall, enter the following commands one by one: 
 
 cd korp_src\buildmingw32 \
 C:\msys64\msys2_shell.cmd -mingw32 -here \
 cmake -G "MSYS Makefiles" .. (this step could be skipped because this repo already contains generated Makefile and you don't want to regenerate it) \
-make \
+make 
 
 Place into directory korp_src\buildmingw32 extracted folder classes mentioned above. \
 Test running the command for example korpvm.exe -cp classpath Primes 500 \
