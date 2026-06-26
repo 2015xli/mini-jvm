@@ -16,14 +16,18 @@ Build instruction:
 MSYS2 MinGw32: 
 
 Run terminall, enter the following commands one by one: 
+
 ```
 cd korp_src\buildmingw32 \
 C:\msys64\msys2_shell.cmd -mingw32 -here \
 ```
+```
 cmake -G "MSYS Makefiles" .. (this step could be skipped because this repo already contains generated Makefile and you don't want to regenerate it) \
+```
 ```
 make 
 ```
+
 Place into directory korp_src\buildmingw32 extracted folder classes mentioned above. \
 Test running the command for example korpvm.exe -cp classpath Primes 500 
 
