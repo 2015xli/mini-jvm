@@ -33,7 +33,10 @@ make
 ```
 
 Place into directory korp_src\buildmingw32 extracted folder classes mentioned above. \
-Test running the command for example korpvm.exe -cp classpath Primes 500 
+Test running the command for example 
+```
+korpvm.exe -cp classpath Primes 500 
+```
 
 ### Visual Studio 2026 Community\Professional editions: 
 
@@ -42,14 +45,20 @@ Build it.
 
 Place into directory korp_src\build\korp\Debug (if you built Debug configuration) \
 extracted folder classes mentioned above and compiled Java samples. \
-Test running the command for example korp.exe -cp classpath Primes 500
+Test running the command for example 
+```
+korp.exe -cp classpath Primes 500
+```
 
 ### JetBrains CLion: 
 Run CLion IDE, open folder korp_src. \
 Build it. 
 
 Place into directory korp_src\cmake-build-debug extracted folder classes mentioned above and compiled Java samples. \
-Test running the command for example korpvm.exe -cp classpath Primes 500 
+Test running the command for example 
+```
+korpvm.exe -cp classpath Primes 500 
+```
 
 ## Folders description:
 
