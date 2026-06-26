@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{537e29c9-9bad-4ca2-92ce-8956f10200df}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\class\class_loader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\class\class_table.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\class\class_utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\class\method.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\class\string_pool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\class\vm_class.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\class\vm_interface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\class\vm_object.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\class\class_initialize.cpp" />
+    <ClCompile Include="..\..\class\class_loader.cpp" />
+    <ClCompile Include="..\..\class\class_parse.cpp" />
+    <ClCompile Include="..\..\class\class_prepare.cpp" />
+    <ClCompile Include="..\..\class\class_table.cpp" />
+    <ClCompile Include="..\..\class\class_utils.cpp" />
+    <ClCompile Include="..\..\class\class_verify.cpp" />
+    <ClCompile Include="..\..\class\method.cpp" />
+    <ClCompile Include="..\..\class\string_pool.cpp" />
+    <ClCompile Include="..\..\class\vm_interface.cpp" />
+  </ItemGroup>
+</Project>
