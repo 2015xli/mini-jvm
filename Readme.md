@@ -35,7 +35,75 @@ Test running the command for example korp.exe -cp classpath Primes 500
 
 JetBrains CLion: \
 Run CLion IDE, open folder korp_src. \
-Build it. \
+Build it. 
 
 Place into directory korp_src\cmake-build-debug extracted folder classes mentioned above and compiled Java samples. \
 Test running the command for example korpvm.exe -cp classpath Primes 500 
+
+Folders description:
+
+app_src/ --  folder for the Java source of the demo applications. \
+korp_src/ -- folder for source code of KORP that builds the korp.exe \
+
+Note: KORP is supposed for J2ME, so all demo classes are compiled for JRE 1.1.
+
+Demo applications
+
+HelloWorld -- Print "Hello World!" on screen. It actually compiles tens of Java methods in this simple application. \
+Primes -- Compute and output all the prime numbers smaller than the input number; \
+Factorial -- Compute the factorial of an input number. \
+Fibonacci -- Compute the Fibonacci number of an input number. \
+GCD - Compute the greates common divisor of two intergers. \
+Josephus - Compute the last survivor wiht two input numbers. About Josephus problem description, please refer to wiki: http://en.wikipedia.org/wiki/Josephus_problem. 
+
+Run the demo applications
+
+Step 1. Open a command window (Run -> cmd). \
+Step 2. Enter demo folder (cd C:\korp_demo). \
+Step 3. Start demo Java apps as below: \
+	korp -cp classpath app_name [arg1] [arg2]
+
+Examples: 
+
+(1) HelloWorld
+
+    C:\korp_demo>korp -cp classpath HelloWorld \
+    Hello World! \
+
+(2) Primes
+
+    C:\korp_demo>korp -cp classpath Primes 500 \
+     2 3 5 7 11 13 17 19 23 29 \
+     31 37 41 43 47 53 59 61 67 71 \
+     73 79 83 89 97 101 103 107 109 113 \
+     127 131 137 139 149 151 157 163 167 173 \
+     179 181 191 193 197 199 211 223 227 229 \
+     233 239 241 251 257 263 269 271 277 281 \
+     283 293 307 311 313 317 331 337 347 349 \
+     353 359 367 373 379 383 389 397 401 409 \
+     419 421 431 433 439 443 449 457 461 463 \
+     467 479 487 491 499
+
+Note: For memory footprint consideration, the maximal input number for the Prime application is limited. In my test it is 5990. The limitation on input is similar with other demo applications.
+
+(3) Factorial
+
+    C:\korp_demo>korp -cp classpath Factorial 10 \
+    3628800
+
+(4) Fibonacci
+
+    C:\korp_demo>korp -cp classpath Fibonacci 15 \
+    610
+
+(5) GCD
+
+    C:\korp_demo>korp -cp classpath GCD 121 33 \
+    Greatest Common Divisor (GCD) is: \
+    11
+
+(6) Josephus
+
+    C:\korp_demo>korp -cp classpath Josephus 100 5 \
+    The last survivor is 47
+
