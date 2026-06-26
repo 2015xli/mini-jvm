@@ -1,0 +1,12 @@
+$(OBJDIR)/code_gen.o: code_gen.cpp
+	$(CPP_COMPILE)
+$(OBJDIR)/compile.o: compile.cpp
+	$(CPP_COMPILE)
+$(OBJDIR)/jit_support.o: jit_support.cpp
+	$(CPP_COMPILE)
+$(OBJDIR)/jit_runtime.o: jit_runtime.cpp
+	$(CPP_COMPILE)
+$(OBJDIR)/prepass.o: prepass.cpp
+	$(CPP_COMPILE)
+$(OBJDIR)/x86.o: x86.cpp
+	$(CPP_COMPILE)

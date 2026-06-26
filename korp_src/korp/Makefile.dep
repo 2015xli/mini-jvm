@@ -1,0 +1,2 @@
+$(OBJDIR)/korp.o: korp.cpp
+	$(CPP_COMPILE)

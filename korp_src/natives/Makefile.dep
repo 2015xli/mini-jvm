@@ -1,0 +1,4 @@
+$(OBJDIR)/natives.o: natives.cpp
+	$(CPP_COMPILE)
+$(OBJDIR)/java_lang.o: java_lang.cpp
+	$(CPP_COMPILE)

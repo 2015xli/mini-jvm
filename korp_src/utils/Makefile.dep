@@ -1,0 +1,8 @@
+$(OBJDIR)/bytecode.o: bytecode.cpp
+	$(CPP_COMPILE)
+$(OBJDIR)/exception.o: exception.cpp
+	$(CPP_COMPILE)
+$(OBJDIR)/utils.o: utils.cpp
+	$(CPP_COMPILE)
+$(OBJDIR)/runtime.o: runtime.cpp
+	$(CPP_COMPILE)

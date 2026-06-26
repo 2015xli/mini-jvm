@@ -1,4 +1,0 @@
-MATCH (p:PROJECT)
-SET p.commit_hash = '267af5332fb5492f032a654e0eb03eca17928d5a'
-RETURN p;
-

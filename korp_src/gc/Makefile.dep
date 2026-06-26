@@ -1,0 +1,2 @@
+$(OBJDIR)/object_create.o: object_create.cpp
+	$(CPP_COMPILE)
