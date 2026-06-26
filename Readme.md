@@ -22,16 +22,16 @@ cmake -G "MSYS Makefiles" .. (this step could be skipped because this repo alrea
 make 
 
 Place into directory korp_src\buildmingw32 extracted folder classes mentioned above. \
-Test running the command for example korpvm.exe -cp classpath Primes 500 \
+Test running the command for example korpvm.exe -cp classpath Primes 500 
 
-Visual Studio 2026 Community\Professional editions: \
+Visual Studio 2026 Community\Professional editions: 
 
 Run Visual Studio, open solution from korp_src\build\korp\korp.sln. \
-Build it. \
+Build it. 
 
 JetBrains CLion: \
 Run CLion IDE, open folder korp_src. \
 Build it. \
 
 Place into directory korp_src\cmake-build-debug extracted folder classes mentioned above and compiled Java samples. \
-Test running the command for example korpvm.exe -cp classpath Primes 500 \
+Test running the command for example korpvm.exe -cp classpath Primes 500 
