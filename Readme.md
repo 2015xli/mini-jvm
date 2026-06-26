@@ -18,11 +18,14 @@ MSYS2 MinGw32:
 Run terminall, enter the following commands one by one: 
 
 ```
-cd korp_src\buildmingw32 \
-C:\msys64\msys2_shell.cmd -mingw32 -here \
+cd korp_src\buildmingw32 
+
+C:\msys64\msys2_shell.cmd -mingw32 -here 
 ```
 ```
-cmake -G "MSYS Makefiles" .. (this step could be skipped because this repo already contains generated Makefile and you don't want to regenerate it) \
+(this step could be skipped because this repo already contains generated Makefile and you don't want to regenerate it)
+
+cmake -G "MSYS Makefiles" ..  
 ```
 ```
 make 
