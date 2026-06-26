@@ -43,7 +43,7 @@ Test running the command for example korpvm.exe -cp classpath Primes 500
 Folders description:
 
 app_src/ --  folder for the Java source of the demo applications. \
-korp_src/ -- folder for source code of KORP that builds the korp.exe \
+korp_src/ -- folder for source code of KORP that builds the korp.exe 
 
 Note: KORP is supposed for J2ME, so all demo classes are compiled for JRE 1.1.
 
@@ -67,43 +67,43 @@ Examples:
 
 (1) HelloWorld
 
-    C:\korp_demo>korp -cp classpath HelloWorld \
-    Hello World! \
+    C:\korp_demo>korp -cp classpath HelloWorld 
+    Hello World! 
 
 (2) Primes
 
-    C:\korp_demo>korp -cp classpath Primes 500 \
-     2 3 5 7 11 13 17 19 23 29 \
-     31 37 41 43 47 53 59 61 67 71 \
-     73 79 83 89 97 101 103 107 109 113 \
-     127 131 137 139 149 151 157 163 167 173 \
-     179 181 191 193 197 199 211 223 227 229 \
-     233 239 241 251 257 263 269 271 277 281 \
-     283 293 307 311 313 317 331 337 347 349 \
-     353 359 367 373 379 383 389 397 401 409 \
-     419 421 431 433 439 443 449 457 461 463 \
+    C:\korp_demo>korp -cp classpath Primes 500 
+     2 3 5 7 11 13 17 19 23 29 
+     31 37 41 43 47 53 59 61 67 71 
+     73 79 83 89 97 101 103 107 109 113 
+     127 131 137 139 149 151 157 163 167 173 
+     179 181 191 193 197 199 211 223 227 229 
+     233 239 241 251 257 263 269 271 277 281 
+     283 293 307 311 313 317 331 337 347 349 
+     353 359 367 373 379 383 389 397 401 409 
+     419 421 431 433 439 443 449 457 461 463 
      467 479 487 491 499
 
 Note: For memory footprint consideration, the maximal input number for the Prime application is limited. In my test it is 5990. The limitation on input is similar with other demo applications.
 
 (3) Factorial
 
-    C:\korp_demo>korp -cp classpath Factorial 10 \
+    C:\korp_demo>korp -cp classpath Factorial 10 
     3628800
 
 (4) Fibonacci
 
-    C:\korp_demo>korp -cp classpath Fibonacci 15 \
+    C:\korp_demo>korp -cp classpath Fibonacci 15 
     610
 
 (5) GCD
 
-    C:\korp_demo>korp -cp classpath GCD 121 33 \
-    Greatest Common Divisor (GCD) is: \
+    C:\korp_demo>korp -cp classpath GCD 121 33 
+    Greatest Common Divisor (GCD) is: 
     11
 
 (6) Josephus
 
-    C:\korp_demo>korp -cp classpath Josephus 100 5 \
+    C:\korp_demo>korp -cp classpath Josephus 100 5 
     The last survivor is 47
 
