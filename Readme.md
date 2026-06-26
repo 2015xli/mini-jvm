@@ -29,6 +29,10 @@ Visual Studio 2026 Community\Professional editions:
 Run Visual Studio, open solution from korp_src\build\korp\korp.sln. \
 Build it. 
 
+Place into directory korp_src\build\korp\Debug (if you built Debug configuration) \
+extracted folder classes mentioned above and compiled Java samples. \
+Test running the command for example korp.exe -cp classpath Primes 500
+
 JetBrains CLion: \
 Run CLion IDE, open folder korp_src. \
 Build it. \
