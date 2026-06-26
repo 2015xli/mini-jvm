@@ -1,3 +1,4 @@
+# What is this project ?
 This code is the companion code to the book "Advanced Design and Implementation of Virtual Machines" \
 (https://play.google.com/store/books/details/Xiao_Feng_Li_Advanced_Design_and_Implementation_of?id=zLbZDQAAQBAJ) \
 and contains minimal implementation of working Java Virtual Machine (JVM) for educational goals only. \
@@ -11,9 +12,9 @@ Folder classes should be extracted and placed to the same directory with executa
 (which should be built according to the instruction below), \
 and provided compiled Java samples. 
 
-Build instruction: 
+## Build instruction: 
 
-MSYS2 MinGw32: 
+### MSYS2 MinGw32: 
 
 Run terminall, enter the following commands one by one: 
 
@@ -34,7 +35,7 @@ make
 Place into directory korp_src\buildmingw32 extracted folder classes mentioned above. \
 Test running the command for example korpvm.exe -cp classpath Primes 500 
 
-Visual Studio 2026 Community\Professional editions: 
+### Visual Studio 2026 Community\Professional editions: 
 
 Run Visual Studio, open solution from korp_src\build\korp\korp.sln. \
 Build it. 
@@ -43,21 +44,21 @@ Place into directory korp_src\build\korp\Debug (if you built Debug configuration
 extracted folder classes mentioned above and compiled Java samples. \
 Test running the command for example korp.exe -cp classpath Primes 500
 
-JetBrains CLion: \
+### JetBrains CLion: \
 Run CLion IDE, open folder korp_src. \
 Build it. 
 
 Place into directory korp_src\cmake-build-debug extracted folder classes mentioned above and compiled Java samples. \
 Test running the command for example korpvm.exe -cp classpath Primes 500 
 
-Folders description:
+## Folders description:
 
 app_src/ --  folder for the Java source of the demo applications. \
 korp_src/ -- folder for source code of KORP that builds the korp.exe 
 
 Note: KORP is supposed for J2ME, so all demo classes are compiled for JRE 1.1.
 
-Demo applications
+## Demo applications
 
 HelloWorld -- Print "Hello World!" on screen. It actually compiles tens of Java methods in this simple application. \
 Primes -- Compute and output all the prime numbers smaller than the input number; \
@@ -66,14 +67,14 @@ Fibonacci -- Compute the Fibonacci number of an input number. \
 GCD - Compute the greates common divisor of two intergers. \
 Josephus - Compute the last survivor wiht two input numbers. About Josephus problem description, please refer to wiki: http://en.wikipedia.org/wiki/Josephus_problem. 
 
-Run the demo applications
+### Run the demo applications
 
 Step 1. Open a command window (Run -> cmd). \
 Step 2. Enter demo folder (cd C:\korp_demo). \
 Step 3. Start demo Java apps as below: \
 	korp -cp classpath app_name [arg1] [arg2]
 
-Examples: 
+### Examples: 
 
 (1) HelloWorld
 
